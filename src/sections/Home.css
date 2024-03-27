@@ -1,0 +1,42 @@
+.carousel-item  img {
+    width: 100%;
+    height: 80vh;
+    color:  green;
+    opacity: 1;
+}
+.imgtext{
+    margin-bottom: 340px;
+    color: #FFFF;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+.btn1 {
+ margin-right: 40px;
+}
+.btn2{
+    margin-right: 20px;
+}
+.logo2{
+    width: 239px;
+height: 239px;
+top: 1037px;
+left: 366px;
+display: flex;
+
+}
+
+.heard5{
+width: 606px;
+height: 36px;
+left: 864px;
+color: #00821C;
+font-family: sans-serif;
+font-size: 20px;
+font-weight: 900;
+line-height: 36px;
+letter-spacing: 0.1em;
+text-align: left;
+
+
+}

@@ -21,6 +21,10 @@ Height:31px;
 .icons{
     margin-right: 196px;
 }
+.navbar-nav-btn{
+    margin-left: 40px ;
+    background-color: #00821C !important;
+}
 #logo{
 width: 70px;
 height: 92px;
@@ -36,12 +40,8 @@ width: 100px;
 height: 52px;
 top: 85px;
 
-
-
-
-
-
 }
 .logo-div{
     margin-left: 120px;
 }
+
