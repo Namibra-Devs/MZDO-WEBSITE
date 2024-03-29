@@ -8,11 +8,12 @@ import Update from './sections/Update';
 import Navbar from './components/Navbar'; // Import Navbar component
 import 'bootstrap/dist/css/bootstrap.min.css'; // Import Bootstrap CSS
 import 'bootstrap/dist/js/bootstrap.bundle.min';
+import 'bootstrap-icons/font/bootstrap-icons.css';
 
 const App = () => {
   return (
     <Router>
-      <Navbar />
+      
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
