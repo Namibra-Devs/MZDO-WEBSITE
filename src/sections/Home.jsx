@@ -387,6 +387,7 @@ and dangerous school and <br /> hospital structures in
       You can donate through the button on the navigation bar. Also, please contact us for more information on this. Our agents will be coming around, and you can donate through them, and we will receive your donation.
     </p>
   </div>
+  
 </div>
 
           
