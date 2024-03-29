@@ -53,6 +53,16 @@ const Navbar = () => (
         </div>
     </div>
 </div>
+<style> 
+{`
+    .nav-link:hover {
+        text-decoration: none;
+        border-bottom: 4px solid green
+        
+    }
+`}
+</style>
+
 </div>
 
 );
@@ -63,4 +73,3 @@ export default Navbar;
 
 
 
-<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />

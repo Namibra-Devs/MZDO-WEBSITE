@@ -2,6 +2,7 @@
 
 import React from 'react';
 import Navbar from '../components/Navbar'; 
+import Footer from '../components/Footer';
 import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
 import group1 from "../assets/images/group 1.jpg"
 import group2 from "../assets/images/group 2.jpg"
@@ -276,8 +277,8 @@ const Home = () => {
           <span>Anyaano school park </span>
           <br /> <span>kumasi, Moshie Zongo </span>
           </p>
-          <button type="button" className="btn btn-primary btn-sm d-block-inline">Small button</button>
-            <button type="button" className="btn btn-secondary btn-sm d-flex">Small button</button>
+          <button type="button" className="btn btn-primary btn-sm d-flex ">Small button</button>
+            <button type="button" className="btn btn-secondary btn-sm d-flex mt-5">Small button</button>
       </div>
 
                   <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 ">
@@ -349,7 +350,7 @@ const Home = () => {
     </div>
 </div>
 
-<div className='' >
+<div  >
 <p className='text-center mt-5' style={{maxWidth:''}}>
 Fund raising  to support any developmental activities, by so doing we have 
 selected Zonal Representative for all the 10 Zones in the <br /> community. with the 
@@ -367,28 +368,32 @@ and dangerous school and <br /> hospital structures in
 
 
 </div>
-
-
-<div className='container mt5' style={{backgroundColor:'whitesmoke'}}>
- 
-  
-  <div className='mb-5' style={{marginBottom:'20px',lineHeight:'40px'}}> 
-  <h6 style={{fontWeight:'900'}}>FREQUENTLY ASKED QUESTIONS </h6>
-  <p style={{fontWeight:'900'}}>Have any questions?</p>{/* Increased margin with marginBottom style */}
+<div className='container mt-5' style={{ marginTop:'20px'}}>
+<h6 className='mt-5' style={{fontWeight:'700',}}>FREQUENTLY ASKED QUESTIONS </h6>
+    <p style={{fontWeight:'700'}}>Have any questions?</p>
+  <div className='mb-5' style={{marginBottom:'20px', lineHeight:'1.5', backgroundColor:'whitesmoke',padding:'20px',lineHeight:'40px'}}> 
+    
     <p>
-      <span style={{fontWeight:'900'}}>How do I donate?</span> <br />
+      <span style={{fontWeight:'700'}}>How do I donate?</span> <br />
       You can donate through the button on the navigation bar. Also, please contact us for more information on this. Our agents will be coming around, and you can donate through them, and we will receive your donation.
     </p>
   </div>
   
-  <div className='mb-5' style={{backgroundColor:'whitesmoke', marginBottom:'20px,', lineHeight:'40px'}}> {/* Increased margin with marginBottom style */}
+  <div className='mb-5' style={{backgroundColor:'whitesmoke', marginBottom:'20px', lineHeight:'1.5', marginTop:'20px', padding:'20px' ,lineHeight:'40px'}}> {/* Increased margin with marginTop */}
     <p>
-      <span className='mt-5' style={{fontWeight:'900'}}>How do I become a member?</span> <br />
+      <span className='mt-5' style={{fontWeight:'700'}}>How do I become a member?</span> <br />
       You can donate through the button on the navigation bar. Also, please contact us for more information on this. Our agents will be coming around, and you can donate through them, and we will receive your donation.
     </p>
   </div>
-  
 </div>
+<div className='container text-center' style={{fontWeight:'700'}}>
+  <p>HOW YOU CAN HELP</p>
+  <button type="button" className="btn btn-primary btn-sm d-block-inline m-5" >Small button</button>
+   <button type="button" className="btn btn-secondary btn-sm ">Small button</button>
+
+</div>
+
+<Footer />
 
           
 </div>
