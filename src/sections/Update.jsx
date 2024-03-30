@@ -1,9 +1,14 @@
 import React from 'react'
+import Footer from '../components/Footer'
+import Navbar from '../components/Navbar'
 
 const Update = () => {
   return (
     <div>
-      <h1>Update</h1>
+      <Navbar />
+
+      <Footer />
+    
     </div>
   )
 }

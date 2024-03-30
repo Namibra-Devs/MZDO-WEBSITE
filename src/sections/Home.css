@@ -1,9 +1,13 @@
 .carousel-item img{
     width: 100%;
     height: 77vh;
-     background-color: #00821C !important;
-    opacity: 1;
+    background-color: white;
+   
+    
 }
+
+
+
 .carousel-btn{
     display: none !important;
 }
@@ -24,6 +28,7 @@
 .btn2{
     margin-right: 20px;
     margin-bottom: 120px !important;
+    border-radius: 30px !important;
 
 }
 
@@ -33,6 +38,8 @@
     padding: 0;
   
 }
+
+
 
 
 

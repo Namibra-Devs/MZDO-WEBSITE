@@ -1,0 +1,29 @@
+.container-fluid::before{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: green;
+    z-index: -1;
+    opacity: 0.5;
+}
+.container span{
+    font-weight: 700;
+   
+
+}
+.container h6{
+    line-height: 30px;
+    text-align: center;
+    
+}
+
+.container-text{
+
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+
+

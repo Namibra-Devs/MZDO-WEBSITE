@@ -1,0 +1,49 @@
+
+
+/* Top Navigation Bar styles */
+.topNav{  
+    background-color:#00821C;  
+}
+
+.topNavlist {
+    margin-left: 196px;
+}
+.topNavlist a {
+color: #FFFF !important;
+}
+
+#media{
+    Width:35px;
+    Height:31px;
+}
+.icons{
+    margin-right: 196px;
+}
+.navbar-nav-btn{
+    margin-left: 40px ;
+    background-color: #00821C !important;
+}
+#logo{
+    width: 70px;
+    height: 92px;
+    top: 45px;
+    left: 198px;
+}
+.logo-text{
+    font-family: sans-serif;
+    font-weight: 900;
+    width: 100px;
+    height: 52px;
+    top: 85px;
+}
+.logo-div{
+    margin-left: 120px;
+}
+
+.nav-prop:hover{
+    color: white;
+    background-color: #00821C;
+    border-radius: 30px;
+    margin-right: 20px;
+}
+
