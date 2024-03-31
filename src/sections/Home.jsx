@@ -18,6 +18,7 @@ import manspeaking from "../assets/images/man-speaking.jpg"
 import womanspeaking from "../assets/images/woman-speaking.jpg"
 import youth from "../assets/images/youth.jpg"
 import google from "../assets/images/google developer group.jpeg"
+import search from "../assets/images/search icon.png"
 import './Home.css';
 
 const Home = () => {
@@ -28,7 +29,14 @@ const Home = () => {
 
         {/* carousel with three images start  */}
          
-        <div id="carouselExampleDark" className="carousel slide" >
+        <div id="carouselExampleDark" className="carousel slide  carousel-img" style={{
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+       
+          position:'relative',
+          isolation:'isolate'
+        }}>
     <div className="carousel-indicators">
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className="carousel-btn"></button>
@@ -264,8 +272,13 @@ const Home = () => {
           <span>Anyaano school park </span>
           <br /> <span>kumasi, Moshie Zongo </span>
           </p>
-          <button type="button" className="btn btn-primary btn-sm d-flex ">Small button</button>
-            <button type="button" className="btn btn-secondary btn-sm d-flex mt-5">Small button</button>
+          <div className='container-fluid'>
+    <h6 className='text-center mt-4' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
+    <div className='d-flex justify-content-center mt-4'>
+        <button type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</button>
+        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
+    </div>
+</div>
       </div>
 
                   <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 ">
@@ -287,7 +300,9 @@ const Home = () => {
 
       <div className='text-center container-fluid mt-5  d-flex justify-content-center align-items-center text-light  mx-auto' 
               style={{backgroundColor:'#000000', marginBottom:'10px',margin:'12px', width:'80%',height:'10vh'}}>
-          
+           <span>
+        <img src={search} alt="" style={{width:'3rem',}} />
+       </span>
           <input className="form-control " type="search" placeholder="Search for something" aria-label="Search" style={{width:'20%' ,marginLeft:'120px'}}  />  
       </div>
     {/* three grid images start here */}

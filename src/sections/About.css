@@ -1,10 +1,13 @@
-.container-fluid::before{
+.about-bg :before{
     content: '';
     position: absolute;
     inset: 0;
     background-color: green;
     z-index: -1;
     opacity: 0.5;
+}
+.about-bg h1{
+    padding-top: 300px;
 }
 .container span{
     font-weight: 700;
@@ -18,12 +21,18 @@
 }
 
 .container-text{
-
     font-family: Arial, sans-serif;
     max-width: 800px;
     padding: 20px;
     border: 1px solid #ccc;
 }
 
-
+.content::after{
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: green;
+    z-index: -1;
+    opacity: 0.5;
+}
 
