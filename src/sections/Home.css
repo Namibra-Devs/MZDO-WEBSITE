@@ -18,19 +18,6 @@
     font-size: 50px;
     font-weight: 700;
 }
-.btn1 {
- margin-right: 40px;
- background-color:#FCE304 !important;
- border-radius: 30px !important;
- border-width: 0 !important;
- margin-bottom: 120px !important;
-}
-.btn2{
-    margin-right: 20px;
-    margin-bottom: 120px !important;
-    border-radius: 30px !important;
-
-}
 
 .inline-p {
     display: inline-block;

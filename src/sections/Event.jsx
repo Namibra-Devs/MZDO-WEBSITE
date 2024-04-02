@@ -72,36 +72,48 @@ const Event = ()=> {
                       </div>
                       <div className="container-fluid">
           <div>
-              <h6 className='text-center mt-5'>
-              OUR COMMUNITY<br />
-
-              </h6>
+             
           </div>
 
           <div className="container ">
               <div className="row mx-auto justify-content-center align-items-center ">
+              <h2 className=' mt-5 mb-5  ' style={{fontWeight:'700', marginRight:'50px !mportant'}}>
+              RECENT EVENTS<br />
+
+              </h2>
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}} >
-                          <img src={boys} className="card-img-top" alt="manspeaking" style={{height:"30vh",}}/>
+             
+                      <div className="card" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}} >
+                          <img src={boys} className="card-img" alt="manspeaking" style={{height:"30vh",  borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}/>
                       </div>
                   </div>
 
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}}>
-                          <img src={benificial} className="card-img-top" alt="womanspeaking" style={{height:"30vh",}}/>
+                      <div className="card mt-5" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}>
+                          <img src={benificial} className="card-img " alt="womanspeaking" style={{height:"30vh",  borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}/>
                       </div>
                   </div>
 
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}} >
-                          <img src={donate} className="card-img-top" alt="youth" style={{height:"30vh" ,}}/>
+                      <div className="card mt-5" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}} >
+                          <img src={donate} className="card-img" alt="youth" style={{height:"30vh" , borderTopRightRadius:'40%', borderBottomLeftRadius:'40%', }}/>
                       </div>
                   </div>
               </div>
           </div>
-      </div>
-                    
+      </div>  
+     
+              <div className="border m-3 bg-dark border-dark rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
+      <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
+      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
+      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
+      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
+             
+     
               </div>
+     
+
+            
          <Footer />
 
        </div>

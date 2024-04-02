@@ -47,8 +47,10 @@ const Home = () => {
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className="carousel-btn"></button>
         <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" className="carousel-btn"></button>
-        <button className="btn btn-primary btn1">CONTACT US</button>
-        <button className="btn btn-primary btn2">READ MORE</button>
+        <a href="http://localhost:5173/Contact"  className="btn btn-warning m-4 text-success " style={{marginTop:'20px'}}>CONTACT US</a>
+        
+        <a href="http://localhost:5173/About"  className="btn btn-primary m-4" style={{marginTop:'20px'}}>READ MORE</a>
+
     </div>
     <div className="carousel-inner carousel-inner-img">
         <div className="carousel-item active" data-bs-interval="10000">
@@ -207,8 +209,10 @@ const Home = () => {
                       renovates various damaged and dangerous school 
                       and hospital structures in the community as well help
                       support anyone with any challenge financially.... 
+                     
               </p>
-              <button className="btn btn-primary" style={{marginTop:'20px'}}>READ MORE</button>
+              <a href="http://localhost:5173/Event"  className="btn btn-primary" style={{marginTop:'20px'}}>READ MORE</a>
+             
                   
             </div>
                   <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 " data-aos="flip-right" >
