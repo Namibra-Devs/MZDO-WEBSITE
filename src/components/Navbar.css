@@ -4,6 +4,9 @@
 .topNav{  
     background-color:#00821C;  
 }
+.nav-link{
+    background-color: #00821C;
+}
 
 .topNavlist {
     margin-left: 196px;
@@ -39,11 +42,15 @@ color: #FFFF !important;
 .logo-div{
     margin-left: 120px;
 }
+.nav-prop{
+    font-weight: 700 !important;
+}
 
 .nav-prop:hover{
-    color: white;
+   color: white !important;
     background-color: #00821C;
-    border-radius: 30px;
-    margin-right: 20px;
+    border-radius: 20px;
+   
+ 
 }
 

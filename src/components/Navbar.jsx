@@ -49,6 +49,7 @@ const Navbar = () => (
                 <a href="http://localhost:5173/Programmes" className="nav-link nav-prop">PROGRAMMES</a>
                 <a href="http://localhost:5173/Update" className="nav-link nav-prop">UPADATE</a>
                 <a href="http://localhost:5173/Contact" className='nav-link nav-prop'>CONTACT US</a>
+                
                 <div className="vector"></div>
                 <button className="btn btn-primary  navbar-nav-btn" >DONATE</button>
                 <i onclick="taggleMenu('block')" class="fa fa-bars menu-ico"></i>

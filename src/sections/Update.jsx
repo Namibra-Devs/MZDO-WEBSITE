@@ -176,12 +176,9 @@ COMMUNITY  </p>
           <h6 className='text-center mt-4' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
     <div className='d-flex justify-content-center mt-4'>
         <button type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</button>
-        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
+        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">BECOME A MEMBER</button>
     </div>
 </div>
-
-
-
       <Footer />
     
     </div>

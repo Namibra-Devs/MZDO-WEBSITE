@@ -1,6 +1,6 @@
 
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import Navbar from '../components/Navbar'; 
 import Footer from '../components/Footer';
 import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
@@ -19,9 +19,15 @@ import womanspeaking from "../assets/images/woman-speaking.jpg"
 import youth from "../assets/images/youth.jpg"
 import google from "../assets/images/google developer group.jpeg"
 import search from "../assets/images/search icon.png"
+import Aos from 'aos';
+ import 'aos/dist/aos.css'
 import './Home.css';
 
 const Home = () => {
+    useEffect (()=>{
+      Aos.init({duration: 2000})
+
+    },[])
     return (
 
 <div>
@@ -64,11 +70,11 @@ const Home = () => {
             </div>
         </div>
     </div>
-    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"  data-aos="fade-right">
         <span className="carousel-control-prev-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Previous</span>
     </button>
-    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"  data-aos="fade-left">
         <span className="carousel-control-next-icon" aria-hidden="true"></span>
         <span className="visually-hidden">Next</span>
     </button>
@@ -84,10 +90,6 @@ const Home = () => {
             <div style={{ backgroundColor: 'green', width: '4rem', height: '8vh', borderRadius: '50%', marginTop:'50px' }}>
                
             </div>
-            
-            
-           
-            
                 <img src={logo} alt="Logo" className='logo2' style={{ width: '16rem', marginTop: '50px' }} />
                 {/* Second Div with Black Background */}
                  <div style={{ backgroundColor: 'black', width: '4rem', height: '8vh', borderRadius: '50%' }}>  </div>
@@ -114,8 +116,9 @@ const Home = () => {
                 2. Youth Employment: Support willing youth to acquire
                 employable skills through the 
                 Apprenticeship Program.
+               
             </p>
-            <button className="btn btn-primary" style={{ marginTop: '20px' }}>READ MORE</button>
+            <a href="http://localhost:5173/About"   className="btn btn-primary" style={{ marginTop: '20px' }}> READ MORE</a>
         </div>
         
     </div>
@@ -134,7 +137,7 @@ const Home = () => {
       <div className="container-fluid" style={{}} >
         <div className="row mx-auto justify-content-center align-items-center">
           <div className="col col-md-3 col-sm-6 col-lg-2" >
-            <div className="card " style={{width: "18rem", borderTopRightRadius:'60%' , margin:'20px', backgroundColor:'whitesmoke', boxShadow:'whitesmoke' }} >
+            <div className="card " style={{width: "18rem", borderTopRightRadius:'60%' , margin:'40px', backgroundColor:'whitesmoke', boxShadow:'whitesmoke' }} data-aos="fade-left" >
               <img src={deploymental} className="card-img-top" alt="..." style={{height:"20vh", borderTopRightRadius:'60%' ,}}/>
               <div className="card-body">
                 <h5 className="card-title text-center">DEVELOPMENTAL</h5>
@@ -144,7 +147,7 @@ const Home = () => {
           </div>
 
           <div className="col col-md-3 col-sm-6 col-lg-2">
-          <div className="card" style={{width: "18rem", margin: '20px', borderTopRightRadius:'60%', backgroundColor:'whitesmoke', }}>
+          <div className="card" style={{width: "18rem",  borderTopRightRadius:'60%', backgroundColor:'whitesmoke',  }} data-aos="fade-left">
               <img src={benificial} className="card-img-top" alt="..."  style={{height:"20vh",  borderTopRightRadius:'60%' , }} />
               <div className="card-body">
                 <h5 className="card-title text-center">TRAININGS</h5>
@@ -154,7 +157,7 @@ const Home = () => {
           </div>
 
           <div className="col col-md-3 col-sm-6 col-lg-2">
-          <div className="card " style={{width: "18rem" ,margin: '20px', borderTopRightRadius:'60%',backgroundColor:'whitesmoke', }}>
+          <div className="card" style={{ width: "18rem",  borderTopRightRadius: '60%', backgroundColor: 'whitesmoke' }} data-aos="fade-left">
               <img src={donation} className="card-img-top" alt="..."  style={{height:"20vh",borderTopRightRadius:'60%' ,}} />
               <div className="card-body">
                 <h5 className="card-title text-center">DONATIONS</h5>
@@ -164,7 +167,7 @@ const Home = () => {
           </div>
 
           <div className="col col-md-3 col-sm-6 col-lg-2">
-            <div className="card" style={{width: "18rem",borderTopRightRadius:'60%' , backgroundColor:'whitesmoke', }} >
+            <div className="card" style={{width: "18rem",borderTopRightRadius:'60%' , backgroundColor:'whitesmoke',  }}  data-aos="fade-right" >
               <img src={boys} className="card-img-top" alt="..."  style={{height:"20vh", borderTopRightRadius:'60%' ,}} />
               <div className="card-body">
                 <h5 className="card-title text-center">DONATIONS</h5>
@@ -174,7 +177,7 @@ const Home = () => {
           </div>
 
           <div className="col col-md-3 col-sm-6 col-lg-2">
-            <div className="card" style={{width: "18rem", borderTopRightRadius:'60%' ,backgroundColor:'whitesmoke', }}>
+            <div className="card" style={{width: "18rem", borderTopRightRadius:'60%' ,backgroundColor:'whitesmoke', }} data-aos="fade-right" >
               <img src={smallboy} className="card-img-top" alt="..." style={{height:"20vh",borderTopRightRadius:'60%' ,}}/>
               <div className="card-body">
                 <h5 className="card-title text-center">DONATIONS</h5>
@@ -208,7 +211,7 @@ const Home = () => {
               <button className="btn btn-primary" style={{marginTop:'20px'}}>READ MORE</button>
                   
             </div>
-                  <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 ">
+                  <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 " data-aos="flip-right" >
                   <img src={deploymental} alt="Logo" className='card-col' style={{width:'40rem', borderTopRightRadius:'30%', borderBottomLeftRadius:'30%'}} />
                   
                   <p className='' style={{fontWeight:'bold', fontSize:'12px'}}>
@@ -275,13 +278,13 @@ const Home = () => {
           <div className='container-fluid'>
     <h6 className='text-center mt-4' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
     <div className='d-flex justify-content-center mt-4'>
-        <button type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</button>
+         <a href="http://localhost:5173/join_us" className='btn btn-success btn-sm d-flex mx-2'> JOIN US </a>
         <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
     </div>
 </div>
       </div>
 
-                  <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 ">
+                  <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 " data-aos="zoom-in">
                    <img src={lineup} alt="Logo" className='card-col' style={{width:'40rem', borderTopRightRadius:'30%', borderBottomLeftRadius:'30%', height:'35vh'}} />
                    
                   
@@ -317,19 +320,19 @@ const Home = () => {
           <div className="container ">
               <div className="row mx-auto justify-content-center align-items-center ">
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}}>
+                      <div className="card" style={{width: "20rem"}} data-aos="zoom-in">
                           <img src={manspeaking} className="card-img-top" alt="manspeaking" style={{height:"30vh",}}/>
                       </div>
                   </div>
 
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}}>
+                      <div className="card" style={{width: "20rem"}} data-aos="zoom-in">
                           <img src={womanspeaking} className="card-img-top" alt="womanspeaking" style={{height:"30vh",}}/>
                       </div>
                   </div>
 
                   <div className="col col-12 col-md-4">
-                      <div className="card" style={{width: "20rem"}}>
+                      <div className="card" style={{width: "20rem"}} data-aos="zoom-in">
                           <img src={youth} className="card-img-top" alt="youth" style={{height:"30vh" ,}}/>
                       </div>
                   </div>
@@ -341,8 +344,8 @@ const Home = () => {
 
 <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center" style={{margin: '0', padding: '0'}}>
     <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 d-flex flex-column justify-content-center align-items-center" 
-    style={{margin: '0', padding: '0'}}>
-        <img src={google} alt="Logo" className='card-col' style={{width:'40rem', height:'35vh',}} />
+    style={{margin: '0', padding: '0'}} data-aos="flip-left" >
+        <img src={google} alt="Logo" className='card-col' style={{width:'40rem', height:'35vh',}}  />
     </div>
     
     <div className="col col-md-6 col-sm-12 col-lg-6 d-flex flex-column justify-content-center align-items-center" style={{margin: '0', padding: '0'}}>
@@ -410,8 +413,8 @@ const Home = () => {
 
 <div className='container text-center' style={{fontWeight:'700'}}>
   <p>HOW YOU CAN HELP</p>
-  <button type="button" className="btn btn-primary btn-sm d-block-inline m-5" >Small button</button>
-   <button type="button" className="btn btn-secondary btn-sm ">Small button</button>
+  <button type="button" className="btn btn-primary btn-sm d-block-inline m-5" >JION US</button>
+   <button type="button" className="btn btn-secondary btn-sm ">ASK US</button>
 
 </div>
 {/* import footer */}
