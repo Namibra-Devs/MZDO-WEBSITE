@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
@@ -17,71 +18,57 @@ const Programmes = () => {
         <div>
             <Navbar />
 
+    
+
             <div className='container-fluid programmes-bg'
-                style={{
-                    backgroundImage: `url(${smallboy})`,
-                    backgroundSize: 'cover',
-                    backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center',
-                    height: '80vh',
-                    width: '120rem',
-                    position: 'relative',
-                    isolation: 'isolate'
-                }}>
+    style={{
+        backgroundImage: `url(${smallboy})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        backgroundPosition: 'center',
+        height: '80vh',
+        maxWidth: '100%', // Make sure it doesn't overflow on smaller screens
+        position: 'relative',
+        isolation: 'isolate'
+    }}>
 
-                <div className='container'>
-                    <h1 className='text-center '
-                        style={{ fontWeight: '700', color: 'yellow' }}>
-                        OUR PROGRAMMES
-                    </h1>
-                    <div className='bg-light text-light'>.</div>
-                    <div className="row mt-5">
-                        {/* First Card */}
-                        <div className="col-md-6 ">
-                            <div className="card mb-3" style={{ border: '4px solid yellow', borderRadius: '0' }}>
-                                <img src={groupofstudent} className="card-img-top" alt="Card Image"
-                                    style={{
-                                        width: '100%',
-                                        height: '40vh',
-                                        objectFit: 'cover'
-                                    }} />
-                            </div>
-                        </div>
-
-                        {/* Second Card */}
-                        <div className="col-md-6">
-                            <div className="card mb-3" style={{ border: '4px solid yellow', borderRadius: '0' }}>
-                                <img src={googlegruop} className="card-img-top" alt="Card Image"
-                                    style={{
-                                        width: '100%',
-                                        height: '40vh',
-                                        objectFit: 'cover'
-                                    }} />
-                            </div>
-                        </div>
-                    </div>
+    <div className='container'>
+        <h1 className='text-center '
+            style={{ fontWeight: '700', color: 'yellow', paddingTop: '15vh', paddingBottom: '3vh' }}>
+            OUR PROGRAMMES
+        </h1>
+        <div className='bg-light text-light'>.</div>
+        <div className="row mt-5">
+            {/* First Card */}
+            <div className="col-md-6 mb-4">
+                <div className="card" style={{ border: '4px solid yellow', borderRadius: '0' }}>
+                    <img src={groupofstudent} className="card-img-top" alt="Card Image"
+                        style={{
+                            width: '100%',
+                            height: '40vh',
+                            objectFit: 'cover'
+                        }} />
                 </div>
-
             </div>
 
-            <div className="d-flex justify-content-between container text-center" style={{
-                width: '602px',
-                height: '40px',
-                top: '951px',
-                left: '555px',
-                marginTop: '120px',
-                marginBottom: '200px'
-            }}>
-                <h5 className="m-0" style={{
-                    margin: '0 -10px',
-                    fontWeight: '900',
-                    borderBottom: '9px solid green',
-                    width: '50px'
-                }}>ALL</h5>
-                <h5 className="m-0" style={{ margin: '0 -10px', fontWeight: '900' }}>2024</h5>
-                <h5 className="m-0" style={{ margin: '0 -10px', fontWeight: '900' }}>2023</h5>
-                <h5 className="m-0" style={{ margin: '0 -10px', fontWeight: '900' }}>2022</h5>
+            {/* Second Card */}
+            <div className="col-md-6 mb-4">
+                <div className="card" style={{ border: '4px solid yellow', borderRadius: '0' }}>
+                    <img src={googlegruop} className="card-img-top" alt="Card Image"
+                        style={{
+                            width: '100%',
+                            height: '40vh',
+                            objectFit: 'cover'
+                        }} />
+                </div>
             </div>
+        </div>
+    </div>
+
+    {/* Overlay */}
+    <div className="programmes-overlay"></div>
+</div>
+
             <hr style={{ width: '90%' }} />
 
             <div className="container-fluid" style={{

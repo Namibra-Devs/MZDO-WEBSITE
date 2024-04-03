@@ -36,3 +36,11 @@
     opacity: 0.5;
 }
 
+
+@media screen and (max-width: 900px) {
+    .about-bg{
+     
+    }
+   
+  
+  }

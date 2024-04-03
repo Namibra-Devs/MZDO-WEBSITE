@@ -10,6 +10,9 @@ import 'bootstrap/dist/js/bootstrap.bundle.min';
 import 'bootstrap-icons/font/bootstrap-icons.css';
 import Join_us from './sections/Join_us';
 import Event from './sections/Event';
+import Donation from './sections/Donation';
+import Faqs from './sections/Faqs';
+
 
 const App = () => {
   return ( 
@@ -24,6 +27,8 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/join_us" element={<Join_us />} />
           <Route path="/Event" element={<Event />} />
+          <Route path="/Donation" element={<Donation />} />
+          <Route path="/Faqs" element={<Faqs />} />
 
 
         </Routes>

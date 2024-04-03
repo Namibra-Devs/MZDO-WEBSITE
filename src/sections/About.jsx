@@ -12,22 +12,22 @@ const About = () => {
       <Navbar />
       
 
-      <div className='container-fluid about-bg' 
-      style={{  backgroundImage: `url(${smallboy})`,
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat', 
-      backgroundPosition: 'center',
-      height:'80vh',
-      width:'120rem',
-      position:'relative',
-      isolation:'isolate'
-      
-        }}>
-      <div className='container '>
-      <h1 className='text-center text-light'
-      style={{fontWeight:'700', }}>WHO ARE YOU</h1>
+      <div className='container-fluid event-bg' 
+    style={{  
+        backgroundImage: `url(${smallboy})`,
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat', 
+        backgroundPosition: 'center',
+        height: '80vh',
+        position: 'relative',
+        isolation: 'isolate'
+    }}>
+    <div className='container'>
+        <h1 className='text-center text-light'
+        style={{fontWeight: '700', paddingTop: '300px'}}>WHO ARE YOU</h1>
+    </div>
       </div>
-      </div>
+
 
       <div className='container-fluid mt-5 container-text ' >
        

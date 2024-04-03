@@ -2,7 +2,6 @@ import React from "react";
 import benifial from '../assets/images/beneficiaries.jpeg'
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-
 import './Join_us.css'
 
 const Join_us = () => {
@@ -97,7 +96,8 @@ in moshie zongo with special emphasis.
     <div className='d-flex justify-content-center mt-4'>
    
 
-        <button href=" http://localhost:5173/join_us"  type="button" className="btn btn-success btn-sm d-flex mx-2 nav-link nav-prop ">JOIN  US</button>
+    <a href="http://localhost:5173/join_us" className='btn btn-success btn-sm d-flex mx-2'> ASK US </a>
+
         <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
 </div>
 </div>

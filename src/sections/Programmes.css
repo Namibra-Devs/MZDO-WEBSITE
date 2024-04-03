@@ -1,4 +1,4 @@
-.programmes-bg::after{
+.programmes-bg::after {
     content: '';
     position: absolute;
     inset: 0;
@@ -6,7 +6,17 @@
     z-index: -1;
     opacity: 0.5;
 }
-.programmes-bg h1{
-    padding-top: 150px;
-    padding-bottom: 50px;
+
+.programmes-bg h1 {
+    padding-top: 15vh; /* Adjusted for better spacing */
+    padding-bottom: 3vh; /* Adjusted for better spacing */
+}
+
+/* Added for the overlay */
+.programmes-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: green;
+    z-index: -1;
+    opacity: 0.5;
 }

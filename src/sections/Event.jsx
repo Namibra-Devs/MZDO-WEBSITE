@@ -12,105 +12,86 @@ const Event = ()=> {
        <div>
          <Navbar />
          <div className='container-fluid event-bg' 
-        style={{  backgroundImage: `url(${muslimLeaders})`,
+    style={{  
+        backgroundImage: `url(${muslimLeaders})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', 
         backgroundPosition: 'center',
-        height:'80vh',
-        width:'120rem',
-        position:'relative',
-        isolation:'isolate'
-        
-          }}>
-        <div className='container '>
+        height: '80vh',
+        position: 'relative',
+        isolation: 'isolate'
+    }}>
+    <div className='container'>
         <h1 className='text-center text-light'
-        style={{fontWeight:'700', paddingTop:'300px' }}>EVENTS</h1>
-        </div>
-        </div>
-        
-        <div className="row row-cols-1  card-col container-fluid justify-content-center align-items-center  ">
-            
-            <div className="col col-md-6 col-sm-12 col-lg-6 d-flex flex-column justify-content-center align-items-center">
-             
-              
-              
-              <h1 className="mb-5"  style={{fontWeight:'700'}}>UPCOMING EVENT</h1> 
-              <h6 className="mb-5" style={{fontWeight:'700'}}>GRAND DURBAR-FUND RAISING</h6> 
-            
-             <p  style={{fontWeight:'700'}}>  
-               <span><i  className="bi bi-calendar" style={{color:'green'}}></i> </span> 
-             14/01/2024</p> 
-               <p  className="mb-5"  style={{fontWeight:'700'}}>
-                <span><i  className="bi bi-clock" style={{color:'green'}}></i></span>
-                10:30 am
-
-
-               </p>
-              <p className="mb-5"  style={{fontWeight:'700'}}>
-              <span><i  className="bi bi-geo-alt-fill" style={{color:'green'}}></i></span>
-                Anyaano school park <br /> kumasi, Moshie Zongo 
-                </p>
-              
-              
-              <div className='container-fluid'>
-        <h6 className='text-center mt-4' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
-      
+        style={{fontWeight: '700', paddingTop: '300px'}}>EVENTS</h1>
     </div>
-          </div>
-    
-                      <div className="col col-img col-md-6 col-sm-12 col-lg-6 mt-5 " >
-                       <img src={lineup} alt="Logo" className='card-col' style={{width:'35rem', borderTopRightRadius:'15%', borderBottomLeftRadius:'15%', height:'60vh'}} />
-                       
-                      
-                       <div>
-                       
-                       
-                       </div>
-                      
-                      
-                        
-                      </div>
-                      <div className="container-fluid">
-          <div>
-             
-          </div>
+</div>
 
-          <div className="container ">
-              <div className="row mx-auto justify-content-center align-items-center ">
-              <h2 className=' mt-5 mb-5  ' style={{fontWeight:'700', marginRight:'50px !mportant'}}>
-              RECENT EVENTS<br />
+        
+<div className="container-fluid">
+    <div className="row justify-content-center align-items-center">
 
-              </h2>
-                  <div className="col col-12 col-md-4">
-             
-                      <div className="card" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}} >
-                          <img src={boys} className="card-img" alt="manspeaking" style={{height:"30vh",  borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}/>
-                      </div>
-                  </div>
+        <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
 
-                  <div className="col col-12 col-md-4">
-                      <div className="card mt-5" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}>
-                          <img src={benificial} className="card-img " alt="womanspeaking" style={{height:"30vh",  borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}}/>
-                      </div>
-                  </div>
+            <h1 className="mb-4" style={{fontWeight:'700'}}>UPCOMING EVENT</h1>
+            <h6 className="mb-4" style={{fontWeight:'700', fontSize:'18px'}}>GRAND DURBAR-FUND RAISING</h6>
+            <p style={{fontWeight:'700', fontSize:'18px'}}>
+                <span><i className="bi bi-calendar" style={{color:'green'}}></i></span>
+                14/01/2024
+            </p>
+            <p style={{fontWeight:'700', fontSize:'18px'}}>
+                <span><i className="bi bi-clock" style={{color:'green'}}></i></span>
+                10:30 am
+            </p>
+            <p style={{fontWeight:'700', fontSize:'18px'}}>
+                <span><i className="bi bi-geo-alt-fill" style={{color:'green'}}></i></span>
+                Anyaano school park <br /> kumasi, Moshie Zongo
+            </p>
 
-                  <div className="col col-12 col-md-4">
-                      <div className="card mt-5" style={{width: "20rem", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%',}} >
-                          <img src={donate} className="card-img" alt="youth" style={{height:"30vh" , borderTopRightRadius:'40%', borderBottomLeftRadius:'40%', }}/>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>  
-     
-              <div className="border m-3 bg-dark border-dark rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
-      <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
-      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
-      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
-      <div className="border m-3 bg-secondary border-secondary rounded rounded-circle" style={{ width: '2rem', height: '2rem' }}></div>
-             
-     
-              </div>
+            <div className="container">
+                <h6 className="text-center mt-4" style={{fontWeight:'700', fontSize:'18px'}}>HOW YOU CAN HELP</h6>
+            </div>
+        </div>
+
+        <div className="col-md-6 col-sm-12 mt-5">
+            <img src={lineup} alt="Logo" className="img-fluid rounded-start" style={{borderTopRightRadius:'15%', borderBottomLeftRadius:'15%', maxHeight:'60vh'}} />
+        </div>
+
+    </div>
+
+    <div className="container mt-5">
+        <div className="row justify-content-center align-items-center">
+            <h2 className="mb-4" style={{fontWeight:'700'}}>RECENT EVENTS</h2>
+
+            <div className="col-12 col-md-4 mb-4">
+                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
+                    <img src={boys} className="card-img-top" alt="manspeaking" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                </div>
+            </div>
+
+            <div className="col-12 col-md-4 mb-4">
+                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
+                    <img src={benificial} className="card-img-top" alt="womanspeaking" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                </div>
+            </div>
+
+            <div className="col-12 col-md-4 mb-4">
+                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
+                    <img src={donate} className="card-img-top" alt="youth" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div className="d-flex justify-content-center mt-4">
+        <div className="border m-3 bg-dark border-dark rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
+        <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
+        <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
+        <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
+        <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
+    </div>
+</div>
+
      
 
             
