@@ -120,7 +120,7 @@ import './Donation.css'
                     </div>
                     <p className='text-danger mt-3' style={{fontWeight:'700'}}>Thank you for putting a smile on our face</p>
                 </div>
-                <a href="" type="submit" className="btn btn-danger m-3">DONATE</a>
+                <a href="/Thanks" type="submit" className="btn btn-danger m-3">DONATE</a>
             </form>
             <div className='container-fluid'>
                 <h6 className='text-center mt-5' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>

@@ -21,10 +21,9 @@ const Update = () => {
       backgroundSize: 'cover',
       backgroundRepeat: 'no-repeat', 
       backgroundPosition: 'center',
-      height:'80vh',
-      width:'120rem',
-      position:'relative',
-      isolation:'isolate'
+      height: '80vh',
+      position: 'relative',
+      isolation: 'isolate'
       
         }}>
       <div className='container '>
@@ -45,7 +44,8 @@ const Update = () => {
                 <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
                 <p className="card-text" style={{fontSize:'12px'}}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
               </div>
-              <p style={{fontWeight:'900',fontSize:'12px'}}>READ MORE</p>
+              < a href='/News_update' style={{fontWeight:'900',fontSize:'12px',textDecoration:'none',color:'black'}}>READ MORE</a>
+
               <hr />
               <p style={{fontSize:'10px'}}>DECEMBER 20,2022</p>
 
@@ -118,7 +118,7 @@ COMMUNITY  </p>
                 <p className="card-text" style={{fontSize:'12px'}}>AS PART  OF OUR BELIEVES GIVING ARMS, WE FULFIL THAT BY  GIVING BACK TO THE NEEDY IN THE
 COMMUNITY  </p>
               </div>
-              <p style={{fontWeight:'900',fontSize:'12px'}}>READ MORE</p>
+              < a href='/News_update' style={{fontWeight:'900',fontSize:'12px',textDecoration:'none',color:'black'}}>READ MORE</a>
               <hr />
               <p style={{fontSize:'10px'}}>DECEMBER 20,2022</p>
 
@@ -175,8 +175,8 @@ COMMUNITY  </p>
               <p className='text-center mt-4' style={{fontWeight:'700'}}>SUPPORT US</p>
           <h6 className='text-center mt-4' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
     <div className='d-flex justify-content-center mt-4'>
-        <button type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</button>
-        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">BECOME A MEMBER</button>
+        <a href='' type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</a>
+        <a href='' type="button" className="btn btn-secondary btn-sm d-flex mx-2">BECOME A MEMBER</a>
     </div>
 </div>
       <Footer />

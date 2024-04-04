@@ -53,7 +53,8 @@ const Navbar = () => {
                             <a className="nav-item nav-link ">Email us: info@mzdo.org</a>
                         </div>
                         <div className="navbar-nav ms-auto icons">
-                            <img src={twitter} className="nav-item nav-link" id="media" alt="Twitter" />
+                            
+                            <img   src={twitter} className="nav-item nav-link" id="media" alt="Twitter"  />
                             <img src={facebook} className="nav-item nav-link" id="media" alt="facebook" />
                             <img src={intagram} className="nav-item nav-link" id="media" alt="instagram" />
 
@@ -86,7 +87,8 @@ const Navbar = () => {
               </ul>
               <div className="menu-icons" onClick={clickHandler}>
                 <i className={clicked ? "bi bi-x-lg" : 
-                    "bi bi-list"}>
+                    "bi bi-list "}>
+                        
                 </i>
               </div>
           </nav>

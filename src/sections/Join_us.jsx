@@ -14,10 +14,9 @@ const Join_us = () => {
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', 
         backgroundPosition: 'center',
-        height:'80vh',
-        width:'120rem',
-        position:'relative',
-        isolation:'isolate'
+        height: '80vh',
+        position: 'relative',
+        isolation: 'isolate'
         
           }}>
         <div className='container '>
@@ -96,9 +95,11 @@ in moshie zongo with special emphasis.
     <div className='d-flex justify-content-center mt-4'>
    
 
-    <a href="http://localhost:5173/join_us" className='btn btn-success btn-sm d-flex mx-2'> ASK US </a>
+    <a href="/join_us" className='btn btn-success btn-sm d-flex mx-2'> ASK US </a>
+    <a href="/Donation" className='btn btn-secondary btn-sm d-flex mx-2'> DONATION </a>
 
-        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
+
+   
 </div>
 </div>
       <Footer />

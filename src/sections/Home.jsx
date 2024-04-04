@@ -41,23 +41,23 @@ const Home = () => {
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className="carousel-btn"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" className="carousel-btn"></button>
             <a href="http://localhost:5173/Contact"  className="btn btn-warning m-4 text-success " style={{marginTop:'20px'}}>CONTACT US</a>
-            <a href="http://localhost:5173/About"  className="btn btn-primary m-4" style={{marginTop:'20px'}}>READ MORE</a>
+            <a href="http://localhost:5173/About"  className="btn btn-success m-4" style={{marginTop:'20px'}}>READ MORE</a>
           </div>
           <div className="carousel-inner carousel-inner-img">
            <div className="carousel-item active" data-bs-interval="10000">
-             <img src={muslimLeaders} className="d-block w-100" alt="..." />
+             <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" />
              <div className="carousel-caption d-none d-md-block">
                <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item" data-bs-interval="2000">
-             <img src={group1} className="d-block w-100" alt="..." />
+             <img src={group1} className="d-block w-100" alt="group1" />
              <div className="carousel-caption d-none d-md-block">
                 <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item">
-             <img src={group2} className="d-block w-100" alt="..." />
+             <img src={group2} className="d-block w-100" alt="group2" />
              <div className="carousel-caption d-none d-md-block">
                 <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
@@ -118,7 +118,7 @@ const Home = () => {
                 employable skills through the 
                 Apprenticeship Program.  
             </p>
-            <a href="http://localhost:5173/About" className="btn btn-primary mt-4"> READ MORE</a>
+            <a href="/About" className="btn btn-success mt-4"> READ MORE <i className="bi bi-arrow-right"></i></a>
         </div>   
     </div>
 </div>
@@ -139,7 +139,7 @@ const Home = () => {
             {/* Card 1 */}
             <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
                 <div className="card" style={{ width: "18rem", borderRadius: '30%', margin: '0.5rem', backgroundColor: 'whitesmoke' }} data-aos="fade-left">
-                    <img src={deploymental} className="card-img-top" alt="..." style={{ height: "20vh", borderRadius: '30%' }} />
+                    <img src={deploymental} className="card-img-top" alt="deploymental" style={{ height: "20vh", borderRadius: '30%' }} />
                     <div className="card-body">
                         <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                             DEVELOPMENTAL <br /> PROJECT
@@ -154,7 +154,7 @@ const Home = () => {
             {/* Card 2 */}
             <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
                 <div className="card" style={{ width: "18rem", borderRadius: '30%', margin: '0.5rem', backgroundColor: 'whitesmoke' }} data-aos="fade-left">
-                    <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderRadius: '30%' }} />
+                    <img src={benificial} className="card-img-top" alt="benificial" style={{ height: "20vh", borderRadius: '30%' }} />
                     <div className="card-body">
                         <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                             TRAININGS
@@ -229,7 +229,7 @@ const Home = () => {
             <p style={{ maxWidth: '100%', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '400' }}>
                 Fund raising to support any developmental activities, by so doing we have selected Zonal Representative for all the 10 Zones in the community. with the funds we can help supports brilliants but needy students renovates various damaged and dangerous school and hospital structures in the community as well help support anyone with any challenge financially....
             </p>
-            <a href="http://localhost:5173/Event" className="btn btn-primary mt-3">READ MORE</a>
+            <a href="/Event" className="btn btn-success mt-3">READ MORE <i className="bi bi-arrow-right"></i></a>
         </div>
         
         
@@ -253,28 +253,33 @@ const Home = () => {
      {/* first two divs with text end here*/}
        {/* div with icon start */}
        <div className='text-center container-fluid mt-5 d-flex flex-wrap justify-content-center align-items-center text-light mx-auto' 
-     style={{ backgroundColor: '#00821C', marginBottom: '10px', margin: '12px', width: '80%', minHeight: '10vh', maxHeight: '10vh' }}>
+    style={{ 
+        backgroundColor: '#00821C', 
+        marginBottom: '10px', 
+        margin: '12px', 
+        width: '80%', 
+        minHeight: '10vh', 
+        maxHeight: '10vh' 
+    }}>
     
-  
-    <div className="inline-p m-3">
+    <div className="inline-p m-3 col-md-4 col-sm-12">
         <img src={like} alt="like" style={{ width: '2rem' }} /><br />
         <span>10</span><br />
         <span>projects</span>
     </div>
 
-    
-    <div className="inline-p m-3">
+    <div className="inline-p m-3 col-md-4 col-sm-12">
         <i className="bi bi-heart"></i><br />
         <span>2000</span><br />
-        <span>Live touched</span>
+        <span>Lives touched</span>
     </div>
 
-    
-    <div className="inline-p m-3">
+    <div className="inline-p m-3 col-md-4 col-sm-12">
         <i className="bi bi-people-fill"></i><br />
-        <span>0</span><br />
-        <span>partners</span>
+        <span>2000</span><br />
+        <span>Lives touched</span>
     </div>
+
 </div>
 
       {/* div with icon end */}
@@ -296,8 +301,8 @@ const Home = () => {
         <div className='container-fluid'>
             <h6 className='text-center mt-4' style={{ fontWeight: '700' }}>HOW YOU CAN HELP</h6>
             <div className='d-flex justify-content-center mt-4'>
-                <a href="http://localhost:5173/join_us" className='btn btn-success btn-sm mx-2'>JOIN US</a>
-                <a href="http://localhost:5173/Event" className='btn btn-secondary btn-sm mx-2'>SEE ALL</a>
+                <a href="/join_us" className='btn btn-success btn-sm mx-2'>JOIN US</a>
+                <a href="/Event" className='btn btn-secondary btn-sm mx-2'>SEE ALL</a>
             </div>
         </div>
     </div>
@@ -354,19 +359,14 @@ const Home = () => {
     {/* three grid images end here */}
 
     <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center" style={{ margin: '0', padding: '0' }}>
-    
-    
     <div className="col col-img col-lg-6 col-md-6 col-sm-12 mt-5 d-flex flex-column justify-content-center align-items-center" style={{ margin: '0', padding: '0' }} data-aos="flip-left">
         <img src={google} alt="Logo" className='card-col img-fluid' style={{ maxWidth: '100%', height: 'auto', maxHeight: '35vh' }} />
     </div>
-    
-    
     <div className="col col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center" style={{ margin: '0', padding: '0' }}>
-        <p style={{ maxWidth: '100%', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0', padding: '0', textAlign: 'center' }}>
+        <p style={{ maxWidth: '600px', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0', padding: '0', textAlign: 'center' }}>
             Fund raising to support any developmental activities, by so doing we have selected Zonal Representative for all the 10 Zones in the community. with the funds we can help supports brilliants but needy students renovates various damaged and dangerous school and hospital structures in the community as well help support anyone with any challenge financially....
         </p>
     </div>
-    
 </div>
 
 
@@ -397,8 +397,8 @@ const Home = () => {
             padding:'20px',
             
         }}> 
-      <p>
-       <span style={{fontWeight:'700'}}>How do I donate?</span> <br />
+      <p style={{fontWeight:'600',fontSize:'20px'}}>
+       <span style={{fontWeight:'700',fontSize:'30px'}}>How do I donate?</span> <br />
         You can donate through the button on the navigation bar. Also, 
         please contact us for more information on this.
         Our agents will be coming around, 
@@ -415,8 +415,8 @@ const Home = () => {
       marginTop:'20px', 
       padding:'20px',
      }}> 
-    <p>
-      <span className='mt-5' style={{fontWeight:'700'}}>How do I become a member?</span> <br />
+    <p style={{fontWeight:'600',fontSize:'20px'}}>
+      <span className='mt-5' style={{fontWeight:'700',fontSize:'30px'}}>How do I become a member?</span> <br />
       You can donate through the button on the navigation bar.
        Also, please contact us for more information on this. 
       Our agents will be coming around, and you can donate 
@@ -427,8 +427,8 @@ const Home = () => {
 
  <div className='container text-center' style={{fontWeight:'700'}}> 
    <p>HOW YOU CAN HELP</p>
-   <a href="http://localhost:5173/join_us" type="button" className="btn btn-secondary btn-sm ">JOIN US </a>
-   <a href="http://localhost:5173/Faqs" type="button" className="btn btn-primary btn-sm d-block-inline m-5" >ASK US</a>
+   <a href="/join_us" type="button" className="btn btn-secondary btn-sm ">JOIN US </a>
+   <a href="/Faqs" type="button" className="btn btn-success btn-sm d-block-inline m-5" >ASK US</a>
  </div>
  {/* import footer */}
  <Footer />

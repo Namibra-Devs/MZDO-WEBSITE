@@ -58,6 +58,7 @@ const Event = ()=> {
         </div>
 
     </div>
+    </div>
 
     <div className="container mt-5">
         <div className="row justify-content-center align-items-center">
@@ -90,7 +91,7 @@ const Event = ()=> {
         <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
         <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
     </div>
-</div>
+
 
      
 

@@ -12,6 +12,8 @@ import Join_us from './sections/Join_us';
 import Event from './sections/Event';
 import Donation from './sections/Donation';
 import Faqs from './sections/Faqs';
+import News_update from './sections/News_update';
+import Thanks from './sections/Thanks';
 
 
 const App = () => {
@@ -29,6 +31,11 @@ const App = () => {
           <Route path="/Event" element={<Event />} />
           <Route path="/Donation" element={<Donation />} />
           <Route path="/Faqs" element={<Faqs />} />
+          <Route path="/News_update" element={<News_update />} />
+          <Route path="/Thanks" element={<Thanks />} />
+
+
+
 
 
         </Routes>

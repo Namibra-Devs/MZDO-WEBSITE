@@ -143,8 +143,8 @@ const About = () => {
       through them, and we will receive your donation.
     </p>
   </div>
-  <button type="button" className="btn btn-primary btn-sm d-block-inline m-5" >Small button</button>
-   <button type="button" className="btn btn-secondary btn-sm ">Small button</button>
+  <a href='/update' type="button" className="btn btn-success btn-sm d-block-inline m-5" >JOIN US</a>
+   <a href='/Donation' type="button" className="btn btn-secondary btn-sm ">DONATE</a>
 </div>
 
 

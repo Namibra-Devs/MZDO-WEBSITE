@@ -32,7 +32,7 @@ const Programmes = () => {
         isolation: 'isolate'
     }}>
 
-    <div className='container'>
+<div className='container'>
         <h1 className='text-center '
             style={{ fontWeight: '700', color: 'yellow', paddingTop: '15vh', paddingBottom: '3vh' }}>
             OUR PROGRAMMES
