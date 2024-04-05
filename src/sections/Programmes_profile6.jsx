@@ -1,20 +1,23 @@
 import React from 'react';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
-import deploymental from "../assets/images/deploymental group 1.jpeg";
+import benifial from "../assets/images/beneficiaries.jpeg";
 
-const Programmes_profile = () => {
+const Programmes_profile6 = () => {
   return (
     <div>
       <Navbar />
+      
+      {/* Year Navigation */}
+   
 
       <div className="container-fluid">
         <div className="row justify-content-center align-items-center">
           {/* Image Section */}
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4 m-lg-5">
-            <div className="card" style={{  width: "100%", border: '0', borderTopRightRadius: '50%', borderBottomLeftRadius:'40%' , backgroundColor:'#FFFFFF' , boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+            <div className="card" style={{ width: "100%", border: '0', borderTopRightRadius: '50%', borderBottomLeftRadius:'40%' , backgroundColor:'#FFFFFF' , boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'}}>
               {/* Check if the image path is correct */}
-              <img src={deploymental} className="card-img-top" alt="deploymental" style={{height: "40vh", borderTopRightRadius: '50%' ,borderBottomLeftRadius:'40%' }} />
+              <img src={benifial} className="card-img-top" alt="deploymental" style={{ height: "40vh", borderTopRightRadius: '50%' ,borderBottomLeftRadius:'40%' }} />
               <div className="card-body">
                 <h5 className="card-title text-center" style={{ fontSize: '24px', fontWeight: '700', fontFamily: 'sans-serif' }}>
                   DEVELOPMENTAL <br /> PROJECT
@@ -69,10 +72,9 @@ const Programmes_profile = () => {
           <span><i className='bi bi-chat-left-text-fill m-3'></i>3 COMMENTS</span>
         </p>
       </div>
-
       <Footer />
     </div>
   );
 }
 
-export default Programmes_profile;
+export default Programmes_profile6;

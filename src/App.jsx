@@ -14,6 +14,14 @@ import Donation from './sections/Donation';
 import Faqs from './sections/Faqs';
 import News_update from './sections/News_update';
 import Thanks from './sections/Thanks';
+import Programmes_profile from './sections/Programmes_profile';
+import Programmes_profile6 from './sections/Programmes_profile6';
+import Programmes_profile5 from './sections/Programmes_profile5';
+
+
+
+
+
 
 
 const App = () => {
@@ -33,8 +41,9 @@ const App = () => {
           <Route path="/Faqs" element={<Faqs />} />
           <Route path="/News_update" element={<News_update />} />
           <Route path="/Thanks" element={<Thanks />} />
-
-
+          <Route path="/Programmes_profile" element={<Programmes_profile />} />
+          <Route path="/Programmes_profile6" element={<Programmes_profile6 />} />
+          <Route path="/Programmes_profile5" element={<Programmes_profile5 />} />
 
 
 

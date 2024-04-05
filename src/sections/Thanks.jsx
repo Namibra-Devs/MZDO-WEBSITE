@@ -14,10 +14,11 @@ const Thanks =()=> {
     alt="Logo" 
     className="img-fluid rounded-start" 
     style={{
-      
-       width:'10rem',
-      
-        Height: '10vh'
+      height: "40vh", 
+      borderTopRightRadius:'70px' ,
+      borderTopLeftRadius:'70px' ,
+       width:'40rem',
+
     }} 
 />
         <img 

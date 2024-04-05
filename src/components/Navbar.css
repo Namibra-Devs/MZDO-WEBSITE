@@ -1,17 +1,11 @@
 
-
-
 .topNav{  
-    background-color:#00821C !important;  
-    margin-top: 0 !important;
-}
-.nav-link{
-    background-color: #00821C;
+    background-color: #00821C !important;  
+    margin: 0 !important;
+    padding: 0 !important;
 }
 
-.topNavlist {
-    margin-left: 196px;
-}
+
 .topNavlist a {
 color: #FFFF !important;
 }
@@ -20,28 +14,7 @@ color: #FFFF !important;
     Width:35px;
     Height:31px;
 }
-.icons{
-    margin-right: 196px;
-}
-/* .navbar-nav-btn{
-    margin-left: 40px ;
-    background-color: #00821C !important;
 
-
-.logo-div{
-    margin-left: 120px;
-}
-.nav-prop{
-    font-weight: 700 !important;
-}
-
-.nav-prop:hover{
-   color: white !important;
-    background-color: #00821C;
-    border-radius: 20px;
-   
- 
-} */
 
 .navbar {
   
@@ -49,10 +22,10 @@ color: #FFFF !important;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #fff;
+    
     white-space: nowrap;
     position: fixed;
-    top: 20px;
+   
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
@@ -65,13 +38,7 @@ color: #FFFF !important;
    top: 45px;
    left: 198px;
 } 
-.logo-text{
-    font-family: sans-serif;
-    font-weight: 900;
-    width: 100px;
-    height: 52px;
-    top: 85px;
-}
+
 
 .nav-ul {
     display: flex;
