@@ -85,6 +85,10 @@ color: #FFFF !important;
   .topNav{
     display: none !important;
   }
+  .navtext {
+    font-size: 18px !important;
+
+  }
     .navbar {
         top: 5px;
     }
