@@ -2,13 +2,7 @@
     width: 100%;
     height: 77vh;
     background-color: white;
-   
-    
 }
-
-
-
-
 .carousel-btn{
     display: none !important;
 }
@@ -19,14 +13,11 @@
     font-size: 50px;
     font-weight: 700;
 }
-
 .inline-p {
     display: inline-block;
     margin: 0;
     padding: 0;
-  
 }
-
 .carousel-img::after{
     content: '';
     position: absolute;

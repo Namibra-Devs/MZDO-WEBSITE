@@ -6,7 +6,6 @@
     z-index: -1;
     opacity: 0.5;
 }
-
     .vertical-line {
         border-left: 1px solid black;
         height: 100vh;

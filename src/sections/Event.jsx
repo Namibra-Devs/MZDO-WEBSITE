@@ -9,10 +9,10 @@ import donate from "../assets/images/kapower-donate-to-muslim.jpeg"
 import "./Event.css"
 const Event = ()=> {
     return (
-       <div>
-         <Navbar />
-         <div className='container-fluid event-bg' 
-    style={{  
+<div>
+    <Navbar />
+  <div className='container-fluid event-bg' 
+     style={{  
         backgroundImage: `url(${muslimLeaders})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', 
@@ -20,12 +20,12 @@ const Event = ()=> {
         height: '80vh',
         position: 'relative',
         isolation: 'isolate'
-    }}>
-    <div className='container'>
+     }}>
+     <div className='container'>
         <h1 className='text-center text-light'
         style={{fontWeight: '700', paddingTop: '300px'}}>EVENTS</h1>
-    </div>
-</div>
+     </div>
+ </div>
 
         
 <div className="container-fluid">
