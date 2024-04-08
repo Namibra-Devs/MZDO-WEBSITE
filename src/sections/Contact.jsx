@@ -50,7 +50,7 @@ const Contact = () => {
                     <span className="vertical-line m-5"></span>
 
                     <span className="vertical-line"></span>
-                    {/* <p className="inline-p">PHONE: +233(0)303030303 <br />EMAIL: info@mzdo.org </p> */}
+                    <p className="inline-p">PHONE: +233(0)303030303 <br />EMAIL: info@mzdo.org </p>
                 </p>
             </div>
         </div>
