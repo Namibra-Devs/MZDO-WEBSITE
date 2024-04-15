@@ -7,10 +7,7 @@ const Programmes_profile5 = () => {
   return (
     <div>
       <Navbar />
-      
       {/* Year Navigation */}
-   
-
       <div className="container-fluid">
         <div className="row justify-content-center align-items-center">
           {/* Image Section */}

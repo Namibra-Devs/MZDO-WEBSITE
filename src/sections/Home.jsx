@@ -5,7 +5,8 @@ import Footer from '../components/Footer';
 import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
 import group1 from "../assets/images/group 1.jpg"
 import group2 from "../assets/images/group 2.jpg"
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/mainlogo.jpg"
+
 import deploymental from "../assets/images/deploymental group 1.jpeg"
 import benificial from  "../assets/images/beneficiaries.jpeg"
 import donation from "../assets/images/kapower-donate-to-muslim.jpeg"
@@ -39,8 +40,8 @@ import './Home.css';
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className="carousel-btn"></button>
             <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" className="carousel-btn"></button>
-            <a href="http://localhost:5173/Contact"  className="btn btn-warning m-4 text-success " style={{marginTop:'20px'}}>CONTACT US</a>
-            <a href="http://localhost:5173/About"  className="btn btn-success m-4" style={{marginTop:'20px'}}>READ MORE</a>
+            <a href="/Contact"  className="btn btn-warning m-4 text-success " style={{marginTop:'20px'}}>CONTACT US</a>
+            <a href="/About"  className="btn btn-success m-4" style={{marginTop:'20px'}}>READ MORE</a>
         </div>
         <div className="carousel-inner carousel-inner-img">
            <div className="carousel-item active" data-bs-interval="10000">

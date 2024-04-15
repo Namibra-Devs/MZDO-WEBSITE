@@ -28,7 +28,7 @@ const Event = ()=> {
  </div>
 
         
-<div className="container-fluid">
+ <div className="container-fluid">
     <div className="row justify-content-center align-items-center">
 
         <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
@@ -91,17 +91,8 @@ const Event = ()=> {
         <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
         <div className="border m-3 bg-secondary border-secondary rounded-circle" style={{width: '2rem', height: '2rem'}}></div>
     </div>
-
-
-     
-
-            
          <Footer />
-
-       </div>
-
-
-
+</div>
     )
 }
 export default Event

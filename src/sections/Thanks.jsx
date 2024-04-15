@@ -1,14 +1,21 @@
-import React from 'react'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
-import Thank from '../assets/images/Thanks.png'
-import boys from '../assets/images/boys.jpg'
+import React, { useEffect } from 'react';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import Thank from '../assets/images/Thanks.png';
+import boys from '../assets/images/boys.jpg';
+import Aos from 'aos';
+ import 'aos/dist/aos.css'
 
 const Thanks =()=> {
+
+  useEffect (()=>{
+    Aos.init({duration: 2000})
+
+  },[])
   return (
-    <div>
+<div>
         <Navbar />
-        <div className='container justify-content center' style={{backgroundColor:'green',width:'40rem',}}>
+        <div className='container justify-content center' style={{backgroundColor:'green',width:'40rem',}} >
         <img 
     src={boys} 
     alt="Logo" 
@@ -20,25 +27,19 @@ const Thanks =()=> {
        width:'40rem',
 
     }} 
-/>
+ />
         <img 
     src={Thank} 
     alt="Logo" 
     className="img-fluid rounded-start" 
     style={{
-      
        width:'40rem',
-      
         Height: '100vh'
     }} 
-/>
-
-
-        </div>
-
-        <Footer />
-      
-    </div>
+    data-aos="zoom-in"/>
+  </div>
+  <Footer />
+</div>
   )
 }
 export default Thanks

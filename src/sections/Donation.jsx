@@ -8,8 +8,8 @@ import './Donation.css'
   return (
     <div>
         <Navbar />
-        <div className='container-fluid event-bg' 
-    style={{  
+    <div className='container-fluid event-bg' 
+       style={{  
         backgroundImage: `url(${benificial})`,
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat', 
@@ -17,12 +17,12 @@ import './Donation.css'
         height: '80vh',
         position: 'relative',
         isolation: 'isolate'
-    }}>
-    <div className='container'>
-        <h1 className='text-center text-light'
-        style={{fontWeight: '700', paddingTop: '300px'}}>DONATION</h1>
-    </div>
-</div>
+         }}>
+      <div className='container'>
+          <h1 className='text-center text-light'
+          style={{fontWeight: '700', paddingTop: '300px'}}>DONATION</h1>
+      </div>
+  </div>
 <div className='container-fluid text-center mt-5'>
     <p className='m-5' style={{fontWeight:'700'}}>DONATE NOW</p>
     <p style={{fontWeight:'700', lineHeight:'30px'}}>
@@ -131,13 +131,9 @@ import './Donation.css'
             </div>
         </div>
     </div>
+ </div>
+  <Footer />
 </div>
-
-
-
-        <Footer />
-
-    </div>
   )
 }
 export default Donation

@@ -6,7 +6,7 @@ import facebook from "../assets/images/facebook.png";
 import intagram from "../assets/images/intagram.png"
 import logo from "../assets/images/logo.png"
 
-const NavItems = [
+ const NavItems = [
     {
      title: "HOME",
      url: "/",
@@ -34,15 +34,11 @@ const NavItems = [
      cName: 'nav-li',
     },
  ]
-
-const Navbar = () => {
-    
+ const Navbar = () => {
     const [clicked, setClicked] = useState(false)
- 
     const clickHandler = (e) => {
         setClicked(!clicked);
     }
-  
     return(
         <div>
             <div className="navbar navbar-expand-lg  topNav">
@@ -57,31 +53,27 @@ const Navbar = () => {
                             <img   src={twitter} className="nav-item nav-link" id="media" alt="Twitter"  />
                             <img src={facebook} className="nav-item nav-link" id="media" alt="facebook" />
                             <img src={intagram} className="nav-item nav-link" id="media" alt="instagram" />
-
-
                         </div>
                     </div>
                 </div>
             </div> 
 
-        <header>
-          <nav className="navbar">
-          <div className="d-flex align-items-center">
+         <header>
+             <nav className="navbar">
+               <div className="d-flex align-items-center">
                     <img src={logo} id="logo" alt="Logo" />
                     <span className="navtext mr-3" style={{fontSize:'30px',fontWeight:'800'}}>MOSHIE ZONGO DEVELOPMENTAL <br /> ORGANIZATION</span>
                 </div>            
               <ul className={ clicked ? "nav-ul active" : "nav-ul"}>
                 {NavItems.map((item, index) => (
                   
-                      <li key={index} className={item.cName}>
+                    <li key={index} className={item.cName}>
                         <a href={item.url} className="nav-icon">
                           {item.title}
                         </a>
                         
-                      </li>
-                  
+                    </li>
                 ))}
-                
                 <a href="/Donation" className='btn btn-success  navbar-nav-btn'>DONATE</a>
                  
               </ul>
@@ -91,13 +83,11 @@ const Navbar = () => {
                         
                 </i>
               </div>
-          </nav>
-      </header>
-
+             </nav>
+         </header>
         </div>
 
 )}
-
 export default Navbar;
 
 
