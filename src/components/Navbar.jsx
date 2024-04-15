@@ -4,7 +4,7 @@ import './Navbar.css'
 import twitter from "../assets/images/twitter.png";
 import facebook from "../assets/images/facebook.png";
 import intagram from "../assets/images/intagram.png"
-import logo from "../assets/images/logo.png"
+import logo from "../assets/images/mainlogo.jpg"
 
  const NavItems = [
     {

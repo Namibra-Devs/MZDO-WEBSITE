@@ -27,21 +27,21 @@ const Footer = () => {
               “Development through education, love and care”
             </p>
             <hr className="bg-light" />
-            <div className='d-flex'>
+            <div className='d-flex text-center'>
               <img src={twitter} className="nav-item nav-link mr-2" id="media" alt="Twitter" />
               <img src={facebook} className="nav-item nav-link mr-2" id="media" alt="Facebook" />
               <img src={intagram} className="nav-item nav-link" id="media" alt="Instagram" /> 
             </div>
             <p className="mt-2" style={{color:'green'}}>@mzd.org</p>
           </div>
-          <div className="col-md-4 col-sm-6 mt-4">
+          <div className="col-md-4 col-sm-6 mt-4 text-center">
             <p className='font-weight-bold'>QUICK LINKS</p>
             <p>ABOUT US</p>
             <p>CONTACT US</p>
             <p>DONATE</p>
             <p>OUR SERVICES</p>
           </div>
-          <div className="col-md-4 col-sm-6 mt-4">
+          <div className="col-md-4 col-sm-6 mt-4 text-center" >
            
             <p className='font-weight-bold'>Orgination info:</p>
             <p>(+233) 591150007</p>

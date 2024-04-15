@@ -30,6 +30,8 @@ import './Home.css';
     },[])
     return (
 
+    
+
 <div>
         <Navbar />
 
@@ -45,19 +47,19 @@ import './Home.css';
         </div>
         <div className="carousel-inner carousel-inner-img">
            <div className="carousel-item active" data-bs-interval="10000">
-               <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" />
+               <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
                   <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item" data-bs-interval="2000">
-               <img src={group1} className="d-block w-100" alt="group1" />
+               <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
                  <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item">
-               <img src={group2} className="d-block w-100" alt="group2" />
+               <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
              <div className="carousel-caption d-none d-md-block">
                  <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
@@ -79,32 +81,28 @@ import './Home.css';
       <div className="row row-cols-1 row-cols-md-2 grid-container">
          {/* First Column */}
          <div className="col d-flex flex-column justify-content-between">
-             <div 
-                 className="bg-green rounded-circle mx-auto mb-3"
-                 style={{ width: '4rem', height: '8vh' }}>
-              </div>
+            
               <img src={logo} alt="Logo" className='logo2 mx-auto mb-3' style={{ width: '16rem' }} />
-             <div 
-                 className="bg-black rounded-circle mx-auto mb-3"
-                 style={{ width: '4rem', height: '8vh' }}>
-             </div>   
+            
          </div>
         
          {/* Second Column */}
-         <div className="col text-start" style={{ fontSize: '12px', lineHeight: '27px', maxWidth: '400px' }}>
+         <div className="col text-center" style={{ fontSize: '12px', lineHeight: '27px', maxWidth: '400px' }}>
              <h5 className='font-weight-bold' style={{ color: '#00821C', marginTop: '30px', fontSize: '18px' }}>
                  Moshie Zongo Development Organization
              </h5>
              <p className='mt-3' style={{fontSize:'28px', fontWeight:'800'}}>MOTTO :</p>
-             <p className='h6 font-weight-bold' style={{fontSize:'24px', fontWeight:'600'}}>“Development through education, love and care”</p>
-             <p className='font-weight-bold'  style={{fontSize:'24px', fontWeight:'400'}}>
+             <p  className='h6 font-weight-bold' style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
+                 “Development through education, love and care”
+             </p>
+             <p className='font-weight-bold'  style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  MOSHIE ZONGO DEVELOPMENT ORGANISATION (MZDO)
                  is a company limited BY guarantee incorporated on the 
                  25th day of May, 2023. <br />
                  The purpose for incorporating MDO is to promote 
                  development in moshie zongo with special emphasis.
              </p>
-             <p className='mt-4' style={{fontSize:'24px', fontWeight:'400',fontFamily:'sans-serif'}}>
+             <p className='mt-4' style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  1. Education: Establishing an Educational Fund to 
                  support Brilliant But Needy Students. <br />
                  2. Youth Employment: Support willing youth to acquire
@@ -125,14 +123,14 @@ import './Home.css';
          </h6>
      </div>
 
-     <div className="container" style={{}}>
+     <div className="container" >
          <div className="row mx-auto justify-content-center align-items-center" style={{ margin: '2rem 0' }}> 
              {/* Card 1 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
-                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-left">
-                      <img src={deploymental} className="card-img-top" alt="deploymental" style={{ height: "20vh", borderTopRightRadius:'70px' }} />
+                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-left">
+                      <img src={deploymental} className="card-img-top" alt="deploymental" style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px',}} />
                      <div className="card-body">
-                         <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
+                         <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif'  }}>
                             DEVELOPMENTAL <br /> PROJECT
                          </h5>
                          <p className="card-text text-center" style={{ fontSize: '0.9rem' }}>
@@ -144,8 +142,8 @@ import './Home.css';
             
              {/* Card 2 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
-                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} data-aos="fade-left">
-                     <img src={benificial} className="card-img-top" alt="benificial" style={{  height: "20vh", borderTopRightRadius:'70px'}} />
+                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} data-aos="fade-left">
+                     <img src={benificial} className="card-img-top" alt="benificial" style={{  height: "20vh", borderTopRightRadius:'70px' , borderTopLeftRadius:'70px'}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                              TRAININGS
@@ -159,8 +157,8 @@ import './Home.css';
 
              {/* Card 3 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
-                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-left">
-                     <img src={donation} className="card-img-top" alt="..." style={{  height: "20vh", borderTopRightRadius:'70px'}} />
+                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-left">
+                     <img src={donation} className="card-img-top" alt="..." style={{  height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px',}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                             DONATIONS
@@ -175,8 +173,8 @@ import './Home.css';
 
              {/* Card 4 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
-                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-right">
-                     <img src={boys} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px' }} />
+                 <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-right">
+                     <img src={boys} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px'}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                             DONATIONS
@@ -191,8 +189,8 @@ import './Home.css';
 
              {/* Card 5 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
-                 <div className="card" style={{width: "18rem", borderTopRightRadius:'70px',  boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-right">
-                     <img src={smallboy} className="card-img-top" alt="..." style={{  height: "20vh", borderTopRightRadius:'70px'}} />
+                 <div className="card" style={{width: "18rem",  borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-right">
+                     <img src={smallboy} className="card-img-top" alt="..." style={{  height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px',}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                             DONATIONS
@@ -212,7 +210,7 @@ import './Home.css';
 
     
      {/* first two divs with text strat here*/}
- <div className="container">
+ <div className="container text-center">
        <div className="row row-cols-1 card-col justify-content-center align-items-center">
          <div className="col-lg-6 col-md-6 col-sm-12">
              <h5 className='col5' style={{ fontWeight: '700', fontSize: '1.5rem' }}>OUR CAMPAIGNS</h5>
@@ -226,7 +224,7 @@ import './Home.css';
                <a href="/Event" className="btn btn-success mt-3">READ MORE <i className="bi bi-arrow-right"></i></a>
          </div>
          <div className="col-lg-6 col-md-6 col-sm-12 mt-5" data-aos="flip-right">
-             <img src={deploymental} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius: '30%', borderBottomLeftRadius: '30%',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
+             <img src={deploymental} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
             
              <p style={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '1rem' }}>
                  <span className="inline-p">CURRENTS FUNDS<br />300000GHS</span>
@@ -283,27 +281,15 @@ import './Home.css';
              <span>Anyaano school park </span><br />
              <span>kumasi, Moshie Zongo </span>
              </p>
-              <div className='container-fluid'>
-                 <h6 className='text-center mt-4' style={{ fontWeight: '700' }}>HOW YOU CAN HELP</h6>
-                  <div className='d-flex justify-content-center mt-4'>
-                      <a href="/join_us" className='btn btn-success btn-sm mx-2'>JOIN US</a>
-                      <a href="/Event" className='btn btn-secondary btn-sm mx-2'>SEE ALL</a>
-                 </div>
-              </div>
+             
          </div>
           <div className="col-lg-6 col-md-6 col-sm-12 mt-5 d-flex justify-content-center align-items-center" data-aos="zoom-in">
-             <img src={lineup} alt="Logo" className='card-col img-fluid' style={{ maxWidth: '100%', borderTopRightRadius: '30%', borderBottomLeftRadius: '30%', maxHeight: '35vh' }} />
+             <img src={lineup} alt="Logo" className='card-col img-fluid' style={{ maxWidth: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',maxHeight: '35vh' }} />
           </div>
       </div>
 
       {/* programme line grid container end */}
-      <div className='text-center container-fluid mt-5  d-flex justify-content-center align-items-center text-light  mx-auto' 
-           style={{backgroundColor:'#000000', marginBottom:'10px',margin:'12px', width:'80%',height:'10vh'}}>
-           <span>
-           <img src={search} alt="" style={{width:'3rem',}} />
-           </span>
-          <input className="form-control " type="search" placeholder="Search for something" aria-label="Search" style={{width:'20%' ,marginLeft:'120px'}}  />  
-      </div>
+     
     {/* three grid images start here */}
  <div className="container-fluid">
        < div>
@@ -313,26 +299,27 @@ import './Home.css';
          </h6>
      </div>
      <div className="container">
-        <div className="row justify-content-center align-items-center">
+    <div className="row justify-content-center align-items-center">
 
-            <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                    <img src={manspeaking} className="card-img-top" alt="manspeaking" style={{ height: "30vh" }} />
-                </div>
+        <div className="col-12 col-md-4 mb-4">
+            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
+                <img src={manspeaking} className="card-img-top img-fluid" alt="manspeaking" style={{ height: "45vh", objectFit: "cover" }} />
             </div>
-            <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                    <img src={womanspeaking} className="card-img-top" alt="womanspeaking" style={{ height: "30vh" }} />
-                </div>
-            </div>
-            <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                    <img src={youth} className="card-img-top" alt="youth" style={{ height: "30vh" }} />
-                </div>
-            </div>
-
         </div>
-      </div>
+        <div className="col-12 col-md-4 mb-4">
+            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
+                <img src={womanspeaking} className="card-img-top img-fluid" alt="womanspeaking" style={{  height: "45vh", objectFit: "cover" }} />
+            </div>
+        </div>
+        <div className="col-12 col-md-4 mb-4">
+            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
+                <img src={youth} className="card-img-top img-fluid" alt="youth" style={{  height: "45vh", objectFit: "cover" }} />
+            </div>
+        </div>
+
+    </div>
+</div>
+
   </div>
     {/* three grid images end here */}
     <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center" style={{ margin: '0', padding: '0' }}>
@@ -346,31 +333,18 @@ import './Home.css';
      </div>
  </div>
 
- <div className='container'>
-      <p className='text-center mt-5' style={{fontSize:'20px', fontWeight: '600', }}>
-          Fund raising  to support any developmental activities, by so doing we have 
-          selected Zonal Representative for all the 10 Zones in the <br /> community. with the 
-          funds we can help supports brilliants but needy students renovates various damaged 
-         and dangerous school and <br /> hospital structures in
-          the community as well help support anyone with any challenge financially.... 
-     </p>
-     <p className='text-center mt-5' style={{fontSize:'20px', fontWeight: '600', }}>
-         Fund raising  to support any developmental activities, by so doing we have 
-         selected Zonal Representative for all the 10 Zones in the <br /> community. with the 
-         funds we can help supports brilliants but needy students renovates various damaged 
-          dangerous school and <br /> hospital structures in
-         the community as well help support anyone with any challenge financially.... 
-     </p>
- </div>
- <div className='container-fluid w-50 mt-5' style={{ marginTop:'20px'}}>
-       <h6 className='mt-5' style={{fontWeight:'700',}}>FREQUENTLY ASKED QUESTIONS </h6>
-       <p style={{fontWeight:'700'}}>Have any questions?</p>
+
+ <div className='container-fluid  mt-5' style={{ marginTop:'20px'}}>
+       <h6 className='mt-5' style={{fontWeight:'700', textAlign:'center'}}>FREQUENTLY ASKED QUESTIONS </h6>
+       <p style={{fontWeight:'700',textAlign:'center'}}>Have any questions?</p>
      <div 
          style={{
               marginBottom:'20px',
               lineHeight:'1.5',
              backgroundColor:'whitesmoke',
              padding:'20px',
+             textAlign:'center',
+            
            }}> 
           <p style={{fontWeight:'600',fontSize:'20px'}}>
              <span style={{fontWeight:'700',fontSize:'30px'}}>How do I donate?</span> <br />
@@ -388,6 +362,8 @@ import './Home.css';
          lineHeight:'1.5',
          marginTop:'20px', 
          padding:'20px',
+         textAlign:'center',
+       
          }}> 
           <p style={{fontWeight:'600',fontSize:'20px'}}>
              <span className='mt-5' style={{fontWeight:'700',fontSize:'30px'}}>How do I become a member?</span> <br />
