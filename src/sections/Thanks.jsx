@@ -15,7 +15,7 @@ const Thanks =()=> {
   return (
 <div>
         <Navbar />
-        <div className='container justify-content center' style={{backgroundColor:'green',width:'40rem',}} >
+        <div className='container d-flex flex-wrap justify-content centern align-items-center ' style={{backgroundColor:'green',}} >
         <img 
     src={boys} 
     alt="Logo" 
@@ -31,10 +31,11 @@ const Thanks =()=> {
         <img 
     src={Thank} 
     alt="Logo" 
-    className="img-fluid rounded-start" 
+    className="img-fluid rounded-start " 
     style={{
        width:'40rem',
-        Height: '100vh'
+        Height: '100vh',
+       
     }} 
     data-aos="zoom-in"/>
   </div>

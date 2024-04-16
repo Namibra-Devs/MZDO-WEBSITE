@@ -60,7 +60,7 @@ import logo from "../assets/images/mainlogo.jpg"
 
          <header>
              <nav className="navbar">
-               <div className="d-flex align-items-center">
+               <div className="d-flex align-items-center"  >
                     <img src={logo} id="logo" alt="Logo" />
                     <span className="navtext mr-3" style={{fontSize:'30px',fontWeight:'800'}}>MOSHIE ZONGO DEVELOPMENTAL <br /> ORGANIZATION</span>
                 </div>            

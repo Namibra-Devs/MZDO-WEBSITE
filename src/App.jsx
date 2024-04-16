@@ -18,12 +18,6 @@ import Programmes_profile from './sections/Programmes_profile';
 import Programmes_profile6 from './sections/Programmes_profile6';
 import Programmes_profile5 from './sections/Programmes_profile5';
 
-
-
-
-
-
-
 const App = () => {
   return ( 
     <div>

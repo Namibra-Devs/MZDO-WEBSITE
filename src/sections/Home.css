@@ -26,7 +26,11 @@
     z-index: -1;
     opacity: 0.5;
 }
-
+.card:hover{
+    transition: 0.1s ease-in;
+    padding: 0.2rem 0.2rem;
+  
+}
 
 
 

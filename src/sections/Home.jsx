@@ -49,19 +49,19 @@ import './Home.css';
            <div className="carousel-item active" data-bs-interval="10000">
                <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
-                  <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                  <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item" data-bs-interval="2000">
                <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
-                 <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                 <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item">
                <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
              <div className="carousel-caption d-none d-md-block">
-                 <h2 className="imgtext">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                 <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
         </div>
@@ -77,12 +77,12 @@ import './Home.css';
 
     {/* carousel with three images end  */}
     {/* first colume dive with img and text start */}
-    <div className="container text-center">         
+    <div className="container text-center mt-5">         
       <div className="row row-cols-1 row-cols-md-2 grid-container">
          {/* First Column */}
          <div className="col d-flex flex-column justify-content-between">
             
-              <img src={logo} alt="Logo" className='logo2 mx-auto mb-3' style={{ width: '16rem' }} />
+              <img src={logo} alt="Logo" className='logo2 mx-auto ' style={{ width: '16rem' }} />
             
          </div>
         
@@ -106,7 +106,7 @@ import './Home.css';
                  1. Education: Establishing an Educational Fund to 
                  support Brilliant But Needy Students. <br />
                  2. Youth Employment: Support willing youth to acquire
-                 employable skills through the 
+                 employable skills through the align-items-center 
                  Apprenticeship Program.  
              </p>
              <a href="/About" className="btn btn-success mt-4"> READ MORE <i className="bi bi-arrow-right"></i></a>
@@ -244,11 +244,8 @@ import './Home.css';
        <div className='text-center container-fluid mt-5 d-flex flex-wrap justify-content-center align-items-center text-light mx-auto' 
             style={{ 
             backgroundColor: '#00821C', 
-            marginBottom: '10px', 
-            margin: '12px', 
-            width: '80%', 
-            minHeight: '10vh', 
-            maxHeight: '10vh' 
+            marginBottom: '10px',
+          
             }}>
     
           <div className="inline-p m-3 col-md-4 col-sm-12">
