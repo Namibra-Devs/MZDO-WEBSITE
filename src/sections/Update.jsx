@@ -50,7 +50,7 @@ const Update = () => {
          <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
         <p className="card-text" style={{fontSize:'12px'}}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
        </div>
-       < a href='/Programmes' style={{fontWeight:'600',fontSize:'20px',textDecoration:'none',color:'black'}}>READ MORE</a>
+       < a href='/Programmes_profile' style={{fontWeight:'600',fontSize:'20px',textDecoration:'none',color:'black'}}>READ MORE</a>
        <hr />
        <p style={{fontSize:'10px'}}>DECEMBER 20,2022</p>
         </div>

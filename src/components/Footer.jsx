@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-4 col-sm-12">
-            <h5>NEWS LETTER <br /> sign up for regular updates and news</h5>
+            <h6>NEWS LETTER <br /> sign up for regular updates and news</h6>
             <hr className="w-75" />
             <div className="d-flex align-items-center  ">
               <img src={logo} id="logo" alt="Logo" style={{backgroundColor:"black"}}/>

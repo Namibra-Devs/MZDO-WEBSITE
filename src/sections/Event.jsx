@@ -33,17 +33,17 @@ const Event = ()=> {
 
         <div className="col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center">
 
-            <h1 className="mb-4" style={{fontWeight:'700'}}>UPCOMING EVENT</h1>
+            <h5 className="mb-4" style={{fontWeight:'700'}}>UPCOMING EVENT</h5>
             <h6 className="mb-4" style={{fontWeight:'700', fontSize:'18px'}}>GRAND DURBAR-FUND RAISING</h6>
-            <p style={{fontWeight:'700', fontSize:'18px'}}>
+            <p style={{fontWeight:'400', fontSize:'18px'}}>
                 <span><i className="bi bi-calendar" style={{color:'green'}}></i></span>
                 14/01/2024
             </p>
-            <p style={{fontWeight:'700', fontSize:'18px'}}>
+            <p style={{fontWeight:'400', fontSize:'18px'}}>
                 <span><i className="bi bi-clock" style={{color:'green'}}></i></span>
                 10:30 am
             </p>
-            <p style={{fontWeight:'700', fontSize:'18px'}}>
+            <p style={{fontWeight:'400', fontSize:'18px'}}>
                 <span><i className="bi bi-geo-alt-fill" style={{color:'green'}}></i></span>
                 Anyaano school park <br /> kumasi, Moshie Zongo
             </p>
@@ -54,7 +54,7 @@ const Event = ()=> {
         </div>
 
         <div className="col-md-6 col-sm-12 mt-5">
-            <img src={lineup} alt="Logo" className="img-fluid rounded-start" style={{borderTopRightRadius:'15%', borderBottomLeftRadius:'15%', maxHeight:'60vh'}} />
+            <img src={lineup} alt="Logo" className="img-fluid rounded-start" style={{borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px', maxHeight:'60vh'}} />
         </div>
 
     </div>
