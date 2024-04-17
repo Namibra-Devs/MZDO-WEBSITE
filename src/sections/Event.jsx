@@ -53,32 +53,32 @@ const Event = ()=> {
             </div>
         </div>
 
-        <div className="col-md-6 col-sm-12 mt-5">
-            <img src={lineup} alt="Logo" className="img-fluid rounded-start" style={{borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px', maxHeight:'60vh'}} />
-        </div>
+        <div className="col-lg-6 col-md-6 col-sm-12 mt-5 d-flex justify-content-center align-items-center">
+             <img src={lineup} alt="Logo" className='card-col img-fluid' style={{ maxWidth: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',maxHeight: '35vh' }} />
+          </div>
 
     </div>
     </div>
 
     <div className="container mt-5">
-        <div className="row justify-content-center align-items-center">
+        <div className="row justify-content-center align-items-center text-center">
             <h2 className="mb-4" style={{fontWeight:'700'}}>RECENT EVENTS</h2>
 
             <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
-                    <img src={boys} className="card-img-top" alt="manspeaking" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
+                    <img src={boys} className="card-img-top" alt="manspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
 
             <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
-                    <img src={benificial} className="card-img-top" alt="womanspeaking" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
+                    <img src={benificial} className="card-img-top" alt="womanspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
 
             <div className="col-12 col-md-4 mb-4">
-                <div className="card" style={{borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}}>
-                    <img src={donate} className="card-img-top" alt="youth" style={{height:"30vh", borderTopRightRadius:'40%', borderBottomLeftRadius:'40%'}} />
+                <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
+                    <img src={donate} className="card-img-top" alt="youth" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
         </div>

@@ -42,51 +42,49 @@ const Update = () => {
           width:'70%'
         }} >
             {/* first row */}
-      <div className="row row-image">
-        <div className="col-sm  text-white">
-        <div className="card " style={{width: "18rem", borderTopRightRadius:'70px' ,borderTopLeftRadius:'70px', margin:'20px', border:'0', boxShadow:'whitesmoke' }} >
-         <img src={boys} className="card-img-top" alt="..." style={{height:"20vh", borderTopRightRadius: '50px',  borderTopLeftRadius: '50px',  borderBottomLeftRadius:'50px' , borderBottomRightRadius:'50px', }}  data-aos="fade-left" />
-        <div className="card-body">
-         <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
-        <p className="card-text" style={{fontSize:'12px'}}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
-       </div>
-       < a href='/Programmes_profile' style={{fontWeight:'600',fontSize:'20px',textDecoration:'none',color:'black'}}>READ MORE</a>
-       <hr />
-       <p style={{fontSize:'10px'}}>DECEMBER 20,2022</p>
+            <div className="row row-image justify-content-center align-items-center">
+    <div className="col-sm text-white d-flex justify-content-center">
+        <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
+            <img src={boys} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-left" />
+            <div className="card-body">
+                <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
+                <p className="card-text" style={{ fontSize: '12px' }}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
+            </div>
+            <a href='/Programmes_profile' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <hr />
+            <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>
-          </div>
-          <div className="col-sm  text-white">
-          <div className="card " style={{width: "18rem", borderTopRightRadius:'60%' , margin:'20px',border:'0', boxShadow:'whitesmoke' }} >
-       <img src={benificial} className="card-img-top" alt="..." style={{height:"20vh", borderTopRightRadius: '50px',  borderTopLeftRadius: '50px',  borderBottomLeftRadius:'50px' , borderBottomRightRadius:'50px', }}  data-aos="fade-right" />
-       <div className="card-body">
-        <h5 className="card-title text-center">TRAINING</h5>
-        <p className="card-text" style={{fontSize:'12px'}}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
-       </div>
-    <a href='/Programmes_profile5' style={{fontWeight:'600',fontSize:'20px',textDecoration:'none',color:'black'}}>READ MORE</a>           
-    <hr />
-    <p style={{fontSize:'10px'}}>DECEMBER 20,2022</p>
-
-  </div>
-          </div>
-          <div className="col-sm  text-white">
-          <div className="card " style={{width: "18rem", borderTopRightRadius:'60%' , margin:'20px',border:'0', boxShadow:'whitesmoke' }} >
-    <img src={muslimleaders} className="card-img-top" alt="..." style={{height:"20vh", borderTopRightRadius: '50px',  borderTopLeftRadius: '50px',  borderBottomLeftRadius:'50px' , borderBottomRightRadius:'50px',}}  data-aos="fade-right" />
-    <div className="card-body">
-      <h5 className="card-title text-center">DONATION</h5>
-      <p className="card-text" style={{fontSize:'12px'}}>
-        AS PART  OF OUR BELIEVES GIVING ARMS, 
-        WE FULFIL THAT BY  GIVING BACK TO THE NEEDY IN THE
-        COMMUNITY 
-      </p>
     </div>
-    <a href='/Programmes_profile6' style={{fontWeight:'600',fontSize:'20px',textDecoration:'none',color:'black'}}>READ MORE</a>
+    <div className="col-sm text-white d-flex justify-content-center">
+        <div className="card" style={{ width: "18rem", borderTopRightRadius: '60%', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
+            <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
+            <div className="card-body">
+                <h5 className="card-title text-center">TRAINING</h5>
+                <p className="card-text" style={{ fontSize: '12px' }}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
+            </div>
+            <a href='/Programmes_profile5' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <hr />
+            <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
+        </div>
+    </div>
+    <div className="col-sm text-white d-flex justify-content-center">
+        <div className="card" style={{ width: "18rem", borderTopRightRadius: '60%', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
+            <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
+            <div className="card-body">
+                <h5 className="card-title text-center">DONATION</h5>
+                <p className="card-text" style={{ fontSize: '12px' }}>
+                    AS PART  OF OUR BELIEVES GIVING ARMS,
+                    WE FULFIL THAT BY  GIVING BACK TO THE NEEDY IN THE
+                    COMMUNITY
+                </p>
+            </div>
+            <a href='/Programmes_profile6' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <hr />
+            <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
+        </div>
+    </div>
+</div>
 
-    <hr />
-    <p style={{fontSize:'10px',}}>DECEMBER 20,2022</p>
-
-  </div>
-          </div>
-      </div>
    
 
       </div>

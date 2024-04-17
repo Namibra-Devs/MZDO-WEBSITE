@@ -8,23 +8,26 @@ const Faqs = ()  => {
   return (
     <div>
         <Navbar />
-        <div className='container-fluid faqs-bg' 
-        style={{  backgroundImage: `url(${student})`,
+        <div className='container-fluid faqs-bg'
+    style={{
+        backgroundImage: `url(${student})`,
         backgroundSize: 'cover',
-        backgroundRepeat: 'no-repeat', 
+        backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
-        height:'80vh',
-        width:'120rem',
-        position:'relative',
-        isolation:'isolate'
-        
-          }}>
-        <div className='container '>
+        height: '80vh',
+        width: '120rem',
+        position: 'relative',
+        isolation: 'isolate',
+        display: 'flex',
+        alignItems: 'center',  // vertical centering
+        justifyContent: 'center'  // horizontal centering
+    }}>
+    <div className='container'>
         <h1 className='text-center text-light'
-        style={{fontWeight:'700', paddingTop:'300px' }}>FAQS</h1>
-        </div>
-        
-        </div>
+            style={{ fontWeight: '700' }}>FAQS</h1>
+    </div>
+</div>
+
         <div className='container-fluid w-100 text-center mt-5'>
     <h6 className='mt-5' style={{ fontWeight: '700' }}>FREQUENTLY ASKED QUESTIONS </h6>
     <p style={{ fontWeight: '700' }}>Have any questions?</p>
@@ -96,10 +99,6 @@ const Faqs = ()  => {
 
     <p style={{ fontWeight: '700' }}>Still need help? send us message here </p>
 </div>
-
-
-
-
 
         <Footer />
 

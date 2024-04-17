@@ -34,8 +34,8 @@ const Programmes = () => {
       style={{fontWeight: '700', paddingTop: '300px'}}>OUR PROGRAMMES</h1>
    </div>
  </div>
-            <div className='bg-light text-light'>.</div>
-                    <div className="row mt-5">
+          
+                    <div className="row mt-5 row row-image justify-content-center align-items-center">
                         {/* First Card */}
                         <div className="col-md-6 mt-5 ">
                             <div className="card mb-3" style={{ border: '4px solid yellow', borderRadius: '0' }}>
@@ -62,48 +62,56 @@ const Programmes = () => {
                     </div>
             <hr style={{ width: '90%' }} />
 
-            <div className="container-fluid mt-5 " style={{ width: '70%' }}>
+            <div className="row mt-5 justify-content-center align-items-center">
+    {/* First Card */}
+    
+
+   
+</div>
+<hr style={{ width: '90%' }} />
+
+<div className="container-fluid mt-5 d-flex justify-content-center">
     {/* First row */}
-    <div className="row row-image ">
-        <div className="col-sm-3 text-white">
-            <div className="card" style={{ width: "18rem",borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={deploymental} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px', }} />
+    <div className="row row-image justify-content-center">
+        <div className="col-sm-3 text-white d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={deploymental} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
                     <p className="card-text text-center" style={{ fontSize: '12px' }}>WE RENOVATES AND BUILD A BETTER COMMUNITY </p>
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white mb-5">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',  margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px' }} />
+        <div className="col-sm-3 text-white d-flex justify-content-center mb-5">
+            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">TRAININGS</h5>
                     <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white">
-            <div className="card" style={{ width: "18rem",borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={donation} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px'}} />
+        <div className="col-sm-3 text-white d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={donation} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">DONATIONS</h5>
                     <p className="card-text text-center" style={{ fontSize: '12px' }}>AS PART OF OUR BELIEVES GIVING ARMS, WE FULFIL THAT BY GIVING BACK TO THE NEEDY IN THE COMMUNITY </p>
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px', }} />
+        <div className="col-sm-3 text-white d-flex justify-content-center">
+            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">TRAININGS</h5>
-                    <p className="card-text" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
+                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
                 </div>
             </div>
         </div>
     </div>
-
 </div>
+
 
    
     <div className='container-fluid'>

@@ -1,4 +1,4 @@
-.faqs-bg :before{
+.faqs-bg ::after{
     content: '';
     position: absolute;
     inset: 0;
