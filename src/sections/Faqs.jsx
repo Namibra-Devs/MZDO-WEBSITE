@@ -25,7 +25,7 @@ const Faqs = ()  => {
         </div>
         
         </div>
-        <div className='container-fluid w-50 mt-5'>
+        <div className='container-fluid w-100 text-center mt-5'>
     <h6 className='mt-5' style={{ fontWeight: '700' }}>FREQUENTLY ASKED QUESTIONS </h6>
     <p style={{ fontWeight: '700' }}>Have any questions?</p>
 
@@ -84,102 +84,15 @@ const Faqs = ()  => {
             through them, and we will receive your donation.
         </p>
     </div>
-    <div className='mb-5'
-        style={{
-            backgroundColor: 'whitesmoke',
-            marginBottom: '20px',
-            lineHeight: '1.5',
-            marginTop: '20px',
-            padding: '10px',
-            position: 'relative' 
-        }}>
-        <div 
-            className="border bg-primary border-primary  rounded-circle" 
-            style={{ 
-                width: '1rem', 
-                height: '1rem',
-                position: 'absolute', 
-                top: '20px', 
-                right: '20px', 
-            }} 
-        ></div>
-        <p      className='mt-5' style={{ fontWeight: '700' }}>
-        How do i donate?
-            </p>
-    </div>
+   
 
-    <div className='mb-5'
-        style={{
-            backgroundColor: 'whitesmoke',
-            marginBottom: '20px',
-            lineHeight: '1.5',
-            marginTop: '20px',
-            padding: '10px',
-            position: 'relative' // Added relative positioning
-        }}>
-        <div 
-            className="border bg-primary border-primary  rounded-circle" 
-            style={{ 
-                width: '1rem', 
-                height: '1rem',
-                position: 'absolute', 
-                top: '20px', 
-                right: '20px', 
-            }} 
-        ></div>
-        <p      className='mt-5' style={{ fontWeight: '700' }}>
-        How do i become a member
-            </p>
-    </div>
+  
 
-    <div className='mb-5'
-        style={{
-            backgroundColor: 'whitesmoke',
-            marginBottom: '20px',
-            lineHeight: '1.5',
-            marginTop: '20px',
-            padding: '10px',
-            position: 'relative' 
-        }}>
-        <div 
-            className="border bg-primary border-primary rounded-circle" 
-            style={{ 
-                width: '1rem', 
-                height: '1rem',
-                position: 'absolute', 
-                top: '20px', 
-                right: '20px', 
-            }} 
-        ></div>
-        <p      className='mt-5' style={{ fontWeight: '700' }}>
-        How do i donate?
-            </p>
-    </div>
-    <div className='mb-5'
-        style={{
-            backgroundColor: 'whitesmoke',
-            marginBottom: '20px',
-            lineHeight: '1.5',
-            marginTop: '20px',
-            padding: '10px',
-            position: 'relative' // Added relative positioning
-        }}>
-        <div 
-            className="border bg-primary border-primary rounded-circle" 
-            style={{ 
-                width: '1rem', 
-                height: '1rem',
-                position: 'absolute', 
-                top: '20px', 
-                right: '20px', 
-            }} 
-        ></div>
-        <p      className='mt-5' style={{ fontWeight: '700' }}>
-        How do i become a member
-            </p>
-    </div>
+  
+   
 
-    {/* ... Other divs ... */}
+
+
 
     <p style={{ fontWeight: '700' }}>Still need help? send us message here </p>
 </div>

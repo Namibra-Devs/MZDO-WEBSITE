@@ -49,19 +49,19 @@ import './Home.css';
            <div className="carousel-item active" data-bs-interval="10000">
                <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
-                  <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                  <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item" data-bs-interval="2000">
                <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
              <div className="carousel-caption d-none d-md-block">
-                 <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                 <h2 className="imgtext text-ligt">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item">
                <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
              <div className="carousel-caption d-none d-md-block">
-                 <h2 className="imgtext text-success">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                 <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
         </div>
@@ -226,12 +226,12 @@ import './Home.css';
          <div className="col-lg-6 col-md-6 col-sm-12 mt-5" data-aos="flip-right">
              <img src={deploymental} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
             
-             <p style={{ fontWeight: 'bold', fontSize: '1rem', marginTop: '1rem' }}>
-                 <span className="inline-p">CURRENTS FUNDS<br />300000GHS</span>
-                 <span className="vertical-line mx-3"></span>
-                 <span className="inline-p">15%</span>
-                 <span className="vertical-line mx-3"></span>
-                 <span className="inline-p">TARGETS<br />300000GHS</span><br />
+             <p style={{ fontWeight: '400', fontSize: '1rem', marginTop: '1rem' }}>
+                 <span className="inline-p" style={{ fontWeight: '400', fontSize: '1rem', }}>CURRENTS FUNDS<br />300000GHS</span>
+                 <span className="vertical-line mx-3" style={{ fontWeight: '400', fontSize: '1rem', }}></span>
+                 <span className="inline-p" style={{ fontWeight: '400', fontSize: '1rem',}}>15%</span>
+                 <span className="vertical-line mx-3" style={{ fontWeight: '400', fontSize: '1rem',}}></span>
+                 <span className="inline-p" style={{ fontWeight: '400', fontSize: '1rem',}}>TARGETS<br />300000GHS</span><br />
                  We need your help and support to achieve this goal, to be able to support
                  the needy ones in the community, come together as one big family to shaping the future.
              </p>
@@ -343,8 +343,8 @@ import './Home.css';
              textAlign:'center',
             
            }}> 
-          <p style={{fontWeight:'600',fontSize:'20px'}}>
-             <span style={{fontWeight:'700',fontSize:'30px'}}>How do I donate?</span> <br />
+          <p style={{fontWeight:'400',fontSize:'18px'}}>
+             <span style={{fontWeight:'600',fontSize:'20px'}}>How do I donate?</span> <br />
               You can donate through the button on the navigation bar. Also, 
              please contact us for more information on this.
              Our agents will be coming around, 
@@ -362,8 +362,8 @@ import './Home.css';
          textAlign:'center',
        
          }}> 
-          <p style={{fontWeight:'600',fontSize:'20px'}}>
-             <span className='mt-5' style={{fontWeight:'700',fontSize:'30px'}}>How do I become a member?</span> <br />
+          <p style={{fontWeight:'400',fontSize:'18px'}}>
+             <span className='mt-5' style={{fontWeight:'600',fontSize:'20px'}}>How do I become a member?</span> <br />
              You can donate through the button on the navigation bar.
              Also, please contact us for more information on this. 
              Our agents will be coming around, and you can donate 

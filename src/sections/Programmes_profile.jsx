@@ -8,7 +8,7 @@ const Programmes_profile = () => {
     <div>
       <Navbar />
 
-      <div className="container-fluid">
+      <div className="container-fluid ">
         <div className="row justify-content-center align-items-center">
           {/* Image Section */}
           <div className="col-lg-3 col-md-4 col-sm-6 mb-4 m-lg-5">
@@ -16,7 +16,7 @@ const Programmes_profile = () => {
               {/* Check if the image path is correct */}
               <img src={deploymental} className="card-img-top" alt="deploymental" style={{height: "40vh", borderTopRightRadius: '50%' ,borderBottomLeftRadius:'40%' }} />
               <div className="card-body">
-                <h5 className="card-title text-center" style={{ fontSize: '24px', fontWeight: '700', fontFamily: 'sans-serif' }}>
+                <h5 className="card-title text-center" style={{ fontSize: '18px', fontFamily: 'sans-serif' }}>
                   DEVELOPMENTAL <br /> PROJECT
                 </h5>
                 <p className="card-text text-center" style={{ fontSize: '20px', fontWeight: '600' }}>

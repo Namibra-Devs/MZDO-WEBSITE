@@ -62,6 +62,9 @@ import './Donation.css'
                         }} 
                     >
                         <option value="USD">SELECT YOUR CURRENCY</option>
+                        <option value="USD">GH cedies</option>
+
+
                     </select>
                     <p className='mt-3' style={{fontWeight:'900'}}>Your Personal Info</p>
                     <hr style={{width:'50%', marginLeft:'150px'}} />
