@@ -62,7 +62,9 @@ import './Donation.css'
                         }} 
                     >
                         <option value="USD">SELECT YOUR CURRENCY</option>
-                        <option value="USD">GH cedies</option>
+                        <option value="NGN">Nigerian Naira (NGN)</option>
+                        <option value="GHS">Ghanaian Cedi (GHS)</option>
+
 
 
                     </select>

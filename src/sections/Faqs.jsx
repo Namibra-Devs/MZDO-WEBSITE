@@ -8,7 +8,8 @@ const Faqs = ()  => {
   return (
     <div>
         <Navbar />
-        <div className='container-fluid faqs-bg'
+        
+        <div className='container-fluid w-100 faqs-bg'
     style={{
         backgroundImage: `url(${student})`,
         backgroundSize: 'cover',
@@ -18,13 +19,11 @@ const Faqs = ()  => {
         width: '120rem',
         position: 'relative',
         isolation: 'isolate',
-        display: 'flex',
-        alignItems: 'center',  // vertical centering
-        justifyContent: 'center'  // horizontal centering
+ 
     }}>
-    <div className='container'>
+    <div className='container-fluid'>
         <h1 className='text-center text-light'
-            style={{ fontWeight: '700' }}>FAQS</h1>
+            style={{ fontWeight: '700' ,paddingTop: '300px' }}>FAQS</h1>
     </div>
 </div>
 

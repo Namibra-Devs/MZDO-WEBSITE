@@ -74,7 +74,7 @@ import logo from "../assets/images/mainlogo.jpg"
                         
                     </li>
                 ))}
-                <a href="/Donation" className='btn btn-success  navbar-nav-btn'>DONATE</a>
+                <a href="/Donation" className='btn btn-success  navbar-nav-btn  donatebtn'>DONATE</a>
                  
               </ul>
               <div className="menu-icons" onClick={clickHandler}>

@@ -82,8 +82,8 @@ const Programmes = () => {
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white d-flex justify-content-center mb-5">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+        <div className="col-sm-3 text-white d-flex justify-content-center ">
+            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">TRAININGS</h5>
@@ -91,17 +91,17 @@ const Programmes = () => {
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white d-flex justify-content-center">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+        <div className="col-sm-3 text-white d-flex justify-content-center ">
+            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={donation} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
-                    <h5 className="card-title text-center">DONATIONS</h5>
-                    <p className="card-text text-center" style={{ fontSize: '12px' }}>AS PART OF OUR BELIEVES GIVING ARMS, WE FULFIL THAT BY GIVING BACK TO THE NEEDY IN THE COMMUNITY </p>
+                    <h5 className="card-title text-center">TRAININGS</h5>
+                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
                 </div>
             </div>
         </div>
-        <div className="col-sm-3 text-white d-flex justify-content-center">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', margin: '20px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+        <div className="col-sm-3 text-white d-flex justify-content-center ">
+            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
                 <div className="card-body">
                     <h5 className="card-title text-center">TRAININGS</h5>

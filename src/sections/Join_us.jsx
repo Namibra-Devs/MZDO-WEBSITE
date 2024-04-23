@@ -25,7 +25,7 @@ const Join_us = () => {
              </h1>
           </div>
         </div>
-    <div className="container mt-5">
+    <div className="container mt-5 text-center">
         <div className="row">
           <div className="col-md-6">
                {/* First Div with Text */}

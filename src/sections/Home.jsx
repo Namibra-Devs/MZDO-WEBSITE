@@ -6,7 +6,6 @@ import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
 import group1 from "../assets/images/group 1.jpg"
 import group2 from "../assets/images/group 2.jpg"
 import logo from "../assets/images/mainlogo.jpg"
-
 import deploymental from "../assets/images/deploymental group 1.jpeg"
 import benificial from  "../assets/images/beneficiaries.jpeg"
 import donation from "../assets/images/kapower-donate-to-muslim.jpeg"

@@ -61,8 +61,8 @@ const Contact = () => {
     <div className='container-fluid'>
     <h6 className='text-center mt-5' style={{fontWeight:'700'}}>HOW YOU CAN HELP</h6>
     <div className='d-flex justify-content-center mt-5'>
-        <button type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</button>
-        <button type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</button>
+        <a href='/join_us' type="button" className="btn btn-success btn-sm d-flex mx-2">JOIN  US</a>
+        <a href='/Donation' type="button" className="btn btn-secondary btn-sm d-flex mx-2">DONATE</a>
 </div>
 </div>
     <Footer />

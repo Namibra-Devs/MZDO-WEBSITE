@@ -22,15 +22,15 @@ color: #FFFF !important;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    
     white-space: nowrap;
     position: fixed;
-   
     left: 50%;
     transform: translate(-50%);
     z-index: 9999;
 }
-
+.donatebtn{
+    margin-right: 30px;
+}
 
 #logo{
    width: 70px;
