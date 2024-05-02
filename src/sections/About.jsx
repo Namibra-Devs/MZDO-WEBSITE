@@ -20,7 +20,8 @@ return (
       height: '80vh',
       position: 'relative',
       isolation: 'isolate',
-      objectFit:'cover'
+      objectFit:'cover',
+      objectPosition:'center'
    }}>
    <div className='container'>
       <h1 className='text-center text-light'

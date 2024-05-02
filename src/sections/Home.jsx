@@ -47,19 +47,19 @@ import './Home.css';
         <div className="carousel-inner carousel-inner-img">
            <div className="carousel-item active" data-bs-interval="10000">
                <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
-             <div className="carousel-caption d-none d-md-block">
+             <div className="carousel-caption d-md-block">
                   <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item" data-bs-interval="2000">
                <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
-             <div className="carousel-caption d-none d-md-block">
+             <div className="carousel-caption d-md-block">
                  <h2 className="imgtext text-ligt">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
            <div className="carousel-item">
                <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
-             <div className="carousel-caption d-none d-md-block">
+             <div className="carousel-caption  d-md-block">
                  <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
              </div>
            </div>
@@ -142,7 +142,7 @@ import './Home.css';
              {/* Card 2 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
                  <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',    boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} data-aos="fade-left">
-                     <img src={benificial} className="card-img-top" alt="benificial" style={{  height: "20vh", borderTopRightRadius:'70px' , borderTopLeftRadius:'70px'}} />
+                     <img src={benificial} className="card-img-top" alt="benificial" style={{  height: "20vh", borderTopRightRadius:'70px' , borderTopLeftRadius:'70px',}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif' }}>
                              TRAININGS
