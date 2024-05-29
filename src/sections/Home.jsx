@@ -13,10 +13,10 @@ import boys from "../assets/images/boys.jpg"
 import smallboy from "../assets/images/small boy.jpg"
 import lineup from "../assets/images/lineup.jpg"
 import like from "../assets/images/like.png"
-import manspeaking from "../assets/images/man-speaking.jpg"
-import womanspeaking from "../assets/images/woman-speaking.jpg"
-import youth from "../assets/images/youth.jpg"
-import google from "../assets/images/google developer group.jpeg"
+import accountant from "../assets/images/accountant.jpg"
+import Manager from "../assets/images/Manager.jpg"
+import deputyManager from "../assets/images/deputyManager.jpg"
+import Secretery from "../assets/images/Secretery.jpeg"
 import search from "../assets/images/search icon.png"
 import Aos from 'aos';
  import 'aos/dist/aos.css'
@@ -47,21 +47,21 @@ import './Home.css';
         <div className="carousel-inner carousel-inner-img">
            <div className="carousel-item active" data-bs-interval="10000">
                <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
-             <div className="carousel-caption d-md-block">
-                  <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-             </div>
+               <div className="carousel-caption d-none  d-md-block text-center">
+                   <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+               </div>   
            </div>
            <div className="carousel-item" data-bs-interval="2000">
                <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
-             <div className="carousel-caption d-md-block">
-                 <h2 className="imgtext text-ligt">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-             </div>
+               <div className="carousel-caption d-none d-md-block text-center">
+                  <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+</div>
            </div>
            <div className="carousel-item">
                <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
-             <div className="carousel-caption  d-md-block">
-                 <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-             </div>
+               <div className="carousel-caption d-none d-md-block text-center">
+                   <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
+                </div>
            </div>
         </div>
         <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"  data-aos="fade-right">
@@ -94,13 +94,20 @@ import './Home.css';
              <p  className='h6 font-weight-bold' style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  “Development through education, love and care”
              </p>
+            
              <p className='font-weight-bold'  style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  MOSHIE ZONGO DEVELOPMENT ORGANISATION (MZDO)
-                 is a company limited BY guarantee incorporated on the 
+                 is a company limited by guarantee incorporated on the 
                  25th day of May, 2023. <br />
                  The purpose for incorporating MDO is to promote 
                  development in moshie zongo with special emphasis.
              </p>
+             <p className='font-weight-bold'  style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
+             Moshie Zongo Development Organization is own by 
+             the Chiefs, Immam, Pastors and Opinion leaders
+              of moshie zongo on behalf of the people of Moshie Zongo.  
+             </p>
+           
              <p className='mt-4' style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  1. Education: Establishing an Educational Fund to 
                  support Brilliant But Needy Students. <br />
@@ -290,44 +297,237 @@ import './Home.css';
  <div className="container-fluid">
        < div>
          <h6 className='text-center mt-5'>
-             OUR COMMUNITY<br />
-             <span>WE COMPROMISE OF SKILLED <br /> AND PASSIONATE MEMBERS</span>
+         ORGNIZATIONAL LEADERSHIP
+          
          </h6>
      </div>
      <div className="container">
     <div className="row justify-content-center align-items-center">
+    <div className="col-lg-4 col-md-6 col-sm-8 mb-5" data-aos="zoom-in">
+  <div className="card" 
+       style={{
+         width: "100%",  
+         borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', 
+         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+         padding: '20px'
+       }} 
+       data-aos="fade-right">
+    <img src={Manager} 
+         className="card-img-top" 
+         alt="manspeaking" 
+         style={{  
+           height: "40vh", 
+           borderTopRightRadius: '70px',
+           borderTopLeftRadius: '70px',
+         }} />
+    <div className="card-body">
+      <h5 className="card-title text-center" 
+          style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+          }}>
+        MANAGER
+      </h5>
+      <p className="card-text text-center" 
+         style={{ 
+           fontSize: '1.2rem' 
+         }}>
+    Yusif Abubakari is the CEO of Park Teletech Africa, LOLC Ghana Limited, 
+    and BD Advisors Consult Limited, and also a Director at Jins Savings and Loans.
+     He holds an MBA in Strategic Management and Consulting, and is a Chartered Banker 
+     and Chartered Financial and Investment Analyst.
+    
+      </p>
+    </div>
+  </div>
+</div>
 
-        <div className="col-12 col-md-4 mb-4">
-            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                <img src={manspeaking} className="card-img-top img-fluid" alt="manspeaking" style={{ height: "45vh", objectFit: "cover" }} />
-            </div>
-        </div>
-        <div className="col-12 col-md-4 mb-4">
-            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                <img src={womanspeaking} className="card-img-top img-fluid" alt="womanspeaking" style={{  height: "45vh", objectFit: "cover" }} />
-            </div>
-        </div>
-        <div className="col-12 col-md-4 mb-4">
-            <div className="card" style={{ width: "100%" }} data-aos="zoom-in">
-                <img src={youth} className="card-img-top img-fluid" alt="youth" style={{  height: "45vh", objectFit: "cover" }} />
-            </div>
-        </div>
 
+<div className="col-lg-4 col-md-6 col-sm-8 mb-5" data-aos="zoom-in">
+  <div className="card" 
+       style={{
+         width: "100%",  
+         borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', 
+         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+         padding: '20px'
+       }} 
+       data-aos="fade-right">
+    <img src={deputyManager} 
+         className="card-img-top" 
+         alt="manspeaking" 
+         style={{  
+           height: "40vh", 
+           borderTopRightRadius: '70px',
+           borderTopLeftRadius: '70px',
+         }} />
+    <div className="card-body">
+      <h5 className="card-title text-center" 
+          style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+          }}>
+        DEPUTY MANAGER
+      </h5>
+      <p className="card-text text-center" 
+         style={{ 
+           fontSize: '1.2rem' 
+         }}>
+       Muniru Mohammed Salifu Esq. is a Credit Collections and Recovery
+        Officer at Standard Chartered Bank and a Barrister at Moomin & Botta Solicitors 
+        in Kumasi. He holds a BL from the Ghana School of Law,
+        an LLB from KNUST, and a BSc in Administration from KNUST.
+      </p>
+    </div>
+  </div>
+</div>
+<div className="col-lg-4 col-md-6 col-sm-8 mb-5" data-aos="zoom-in">
+  <div className="card" 
+       style={{
+         width: "100%",  
+         borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', 
+         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+         padding: '20px'
+       }} 
+       data-aos="fade-right">
+    <img src={accountant} 
+         className="card-img-top" 
+         alt="manspeaking" 
+         style={{  
+           height: "40vh", 
+           borderTopRightRadius: '70px',
+           borderTopLeftRadius: '70px',
+         }} />
+    <div className="card-body">
+      <h5 className="card-title text-center" 
+          style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+          }}>
+        ACCOUNTANT
+      </h5>
+      <p className="card-text text-center" 
+         style={{ 
+           fontSize: '1.2rem' 
+         }}>
+      
+Awal Mohammed is an educationist and an Economics tutor at Ibadul Rahment SHS.
+ He holds a BSc in Development Studies from UDS and a Diploma in Education from UEW.
+      </p>
+    </div>
+  </div>
+</div>
     </div>
 </div>
 
   </div>
     {/* three grid images end here */}
-    <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center" style={{ margin: '0', padding: '0' }}>
-     <div className="col col-img col-lg-6 col-md-6 col-sm-12 mt-5 d-flex flex-column justify-content-center align-items-center" style={{ margin: '0', padding: '0' }} data-aos="flip-left">
-         <img src={google} alt="Logo" className='card-col img-fluid' style={{ maxWidth: '100%', height: 'auto', maxHeight: '35vh' }} />
-     </div>
-     <div className="col col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center" style={{ margin: '0', padding: '0' }}>
-         <p  style={{ maxWidth: '600px', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0', padding: '0', textAlign: 'center' }}>
-              Fund raising to support any developmental activities, by so doing we have selected Zonal Representative for all the 10 Zones in the community. with the funds we can help supports brilliants but needy students renovates various damaged and dangerous school and hospital structures in the community as well help support anyone with any challenge financially....
-         </p>
-     </div>
- </div>
+     <div className="container-fluid">
+   
+     <div className="container">
+    <div className="row justify-content-center align-items-center">
+    <div className="col-lg-4 col-md-6 col-sm-8 mb-5" data-aos="zoom-in">
+  <div className="card" 
+       style={{
+         width: "100%",  
+         borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', 
+         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+         padding: '20px'
+       }} 
+       data-aos="fade-right">
+    <img src={Secretery} 
+         className="card-img-top" 
+         alt="manspeaking" 
+         style={{  
+           height: "40vh", 
+           borderTopRightRadius: '70px',
+           borderTopLeftRadius: '70px',
+         }} />
+    <div className="card-body">
+      <h5 className="card-title text-center" 
+          style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+          }}>
+        SECRETERY
+      </h5>
+      <p className="card-text text-center" 
+         style={{ 
+           fontSize: '1.2rem' 
+         }}>
+ Nuhu Ibrahim Zeba, formerly the Headteacher of Ashanti Pride Educational Complex (APEC),
+  currently serves as an Educational Consultant. He holds the grade of Principal Superintendent
+  within the Ghana Education Service (GES) and has a B.Ed in Basic Education.
+    
+      </p>
+    </div>
+  </div>
+</div>
+
+
+<div className="col-lg-4 col-md-6 col-sm-8 mb-5" data-aos="zoom-in">
+  <div className="card" 
+       style={{
+         width: "100%",  
+         borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', 
+         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)',
+         padding: '20px'
+       }} 
+       data-aos="fade-right">
+    <img src={deputyManager} 
+         className="card-img-top" 
+         alt="manspeaking" 
+         style={{  
+           height: "40vh", 
+           borderTopRightRadius: '70px',
+           borderTopLeftRadius: '70px',
+         }} />
+    <div className="card-body">
+      <h5 className="card-title text-center" 
+          style={{ 
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+          }}>
+         PUBLIC RELATIONS OFFICER
+      </h5>
+      <p className="card-text text-center" 
+         style={{ 
+           fontSize: '1.2rem' 
+         }}>
+     Kwame Nsiah PRO holds a BSc in Theology from Charisma Bible College and an HND 
+     in Business Administration from Kumasi Technical University. He has worked as a Secretary at
+      the Accounts Office of the Office of the Administrator of Stool Lands and as a
+       Lecturer at Charisma Bible College.
+      
+      </p>
+    </div>
+  </div>
+</div>
+
+    </div>
+</div>
+
+  </div>
+ 
 
 
  <div className='container-fluid  mt-5' style={{ marginTop:'20px'}}>
