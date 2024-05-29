@@ -43,8 +43,103 @@ return (
         The organisation was formed and owned by the chiefs, imams and pastors, assembly members, Mp and opinion leaders in moshie <br />
         Zongo in trust for the people of moshie zongo.
       </h6>
+      <h6 className='mt-5'>
+              The highest decision-making body of the organization is the General Assembly made up of 
+              a meeting of the general members
+              the community together with officers of the origination.
+        The second highest decision-making organization is the Executing Council 
+        which is made up of the Chiefs, Religious and Opinion leaders of the community.
+        The third decision making body is the Management Committee which seeks to the day-to-day operations of t
+        he organization.
+
+      </h6>
   </div>
- 
+  <div className='container-fluid text-center  mt-5' >
+   <div className='mb-5' 
+     style=
+     {{
+      marginBottom:'20px',
+      lineHeight:'1.5',
+      backgroundColor:'whitesmoke',
+      padding:'20px', 
+     }}> 
+     <p>
+        <span style={{fontWeight:'700'}}>OWNERSHIP</span> <br />
+        It is owned by the Chiefs, religious leaders on behalf of the people of Moshie Zongo
+      </p>
+      
+   </div>
+   <div className='mb-5' 
+     style={{
+      backgroundColor:'whitesmoke',
+      marginBottom:'20px', 
+      lineHeight:'1.5',
+      marginTop:'20px', 
+      padding:'20px',
+     }}> 
+     <p>
+       <span className='mt-5' style={{fontWeight:'700'}}>FORMATION</span> <br />
+       The Chiefs, religious and opinion leaders of the community, realizing the 
+       need to provide support to the residents in the community, came together to
+        establish an organization which will source funds to provide scholarships,
+         apprentice support and projects to 
+       aid in the development of the community.
+      
+     </p>
+   </div>
+   <a href='/update' type="button" className="btn btn-success btn-sm d-block-inline m-5" >JOIN US</a>
+   <a href='/Donation' type="button" className="btn btn-secondary btn-sm ">DONATE</a>
+ </div>
+ <div className='container-fluid text-center  mt-5' >
+   
+   <div className='mb-5' 
+     style=
+     {{
+      marginBottom:'20px',
+      lineHeight:'1.5',
+      backgroundColor:'whitesmoke',
+      padding:'20px', 
+     }}> 
+     <p>
+        <span style={{fontWeight:'700'}}>SOURCE OF FOUND</span> <br />
+      <ul>
+        <li>Donations by major mosques where Jumah  prayers are held,</li>
+        <li>Donations by religious leaders from a fraction of contributions received at ever program,</li>
+        <li>Donations from volunteer donors</li>
+        <li>Donations from residents abroad</li>
+        <li>Revenue from properties owned by the community</li>
+        <li>Contributions from businesses and merchants in the community</li>
+        <li>Revenue from income generating businesses engaged in by the organisation</li>
+      </ul>
+      </p>
+      
+   </div>
+   <div className='mb-5' 
+     style={{
+      backgroundColor:'whitesmoke',
+      marginBottom:'20px', 
+      lineHeight:'1.5',
+      marginTop:'20px', 
+      padding:'20px',
+     }}> 
+     <p>
+       <span className='mt-5' style={{fontWeight:'700'}}>FORMATION</span> <br />
+       <ul>
+        <li>
+        -Publication of revenue and expenses every 3months,
+         6months and 1year on our website, social media pages, \
+        mosques and churches in the community, 
+        </li>
+ <li>-Holding of annual general meetings.</li>
+ <li>-Holding of elections to appoint leaders</li>
+       </ul>
+
+      
+     </p>
+   </div>
+   <a href='/update' type="button" className="btn btn-success btn-sm d-block-inline m-5" >JOIN US</a>
+   <a href='/Donation' type="button" className="btn btn-secondary btn-sm ">DONATE</a>
+ </div>
 
  
   <div className='container-fluid text-center  mt-5' >
@@ -66,6 +161,7 @@ return (
         and you can donate through them, 
         and we will receive your donation.
       </p>
+      
    </div>
    <div className='mb-5' 
      style={{

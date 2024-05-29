@@ -6,7 +6,7 @@ import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
 import group1 from "../assets/images/group 1.jpg"
 import group2 from "../assets/images/group 2.jpg"
 import logo from "../assets/images/mainlogo.jpg"
-import deploymental from "../assets/images/deploymental group 1.jpeg"
+import Awards1 from "../assets/images/Awards1.jpg"
 import benificial from  "../assets/images/beneficiaries.jpeg"
 import donation from "../assets/images/kapower-donate-to-muslim.jpeg"
 import boys from "../assets/images/boys.jpg"
@@ -134,7 +134,7 @@ import './Home.css';
              {/* Card 1 */}
              <div className="col-lg-2 col-md-3 col-sm-6 mb-4 m-lg-5">
                  <div className="card" style={{ width: "18rem", borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',  borderBottomLeftRadius:'70px',     boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }} data-aos="fade-left">
-                      <img src={deploymental} className="card-img-top" alt="deploymental" style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px',}} />
+                      <img src={Awards1} className="card-img-top" alt="deploymental" style={{ height: "20vh", borderTopRightRadius:'70px',borderTopLeftRadius:'70px',}} />
                      <div className="card-body">
                          <h5 className="card-title text-center" style={{ fontSize: '1rem', fontWeight: '600', fontFamily: 'sans-serif'  }}>
                             DEVELOPMENTAL <br /> PROJECT
@@ -230,7 +230,7 @@ import './Home.css';
                <a href="/Event" className="btn btn-success mt-3">READ MORE <i className="bi bi-arrow-right"></i></a>
          </div>
          <div className="col-lg-6 col-md-6 col-sm-12 mt-5" data-aos="flip-right">
-             <img src={deploymental} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
+             <img src={Awards1} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
             
              <p style={{ fontWeight: '400', fontSize: '1rem', marginTop: '1rem' }}>
                  <span className="inline-p" style={{ fontWeight: '400', fontSize: '1rem', }}>CURRENTS FUNDS<br />300000GHS</span>
@@ -296,7 +296,13 @@ import './Home.css';
     {/* three grid images start here */}
  <div className="container-fluid">
        < div>
-         <h6 className='text-center mt-5'>
+         <h6 className='text-center mb-5'
+         style={{
+            fontSize: '1.5rem', 
+            fontWeight: '600', 
+            fontFamily: 'sans-serif' 
+         }}
+         >
          ORGNIZATIONAL LEADERSHIP
           
          </h6>
