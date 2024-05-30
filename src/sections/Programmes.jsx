@@ -92,7 +92,7 @@ const Programmes = () => {
 </div>
 <hr style={{ width: '90%' }} />
 
-<div className="container-fluid mt-5 d-flex justify-content-center">
+<div className="container-fluid mt-5 d-flex justify-content-center gap-5">
     {/* First row */}
     <div className="row row-image justify-content-center">
         <div className="col-sm-3 text-white d-flex justify-content-center">
