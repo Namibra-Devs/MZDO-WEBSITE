@@ -4,10 +4,12 @@ import Footer from '../components/Footer';
 import './Programmes.css';
 import smallboy from '../assets/images/small boy.jpg';
 import scholarships from '../assets/images/scholarship9.jpg';
-import deploymental from '../assets/images/deploymental group 1.jpeg';
+import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
 import benificial from '../assets/images/beneficiaries.jpeg';
-import donation from '../assets/images/kapower-donate-to-muslim.jpeg'
+import health from '../assets/images/health.jpg'
 import job from '../assets/images/job.jpg'
+import group1 from "../assets/images/group 1.jpg"
+
 
 
 
@@ -39,7 +41,7 @@ const Programmes = () => {
           
                      <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center mt-5 gap-5">
                      <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center " style={{
-                        width: "18rem",
+                        width: "25rem",
                          borderTopRightRadius: '70px', 
                         borderTopLeftRadius: '70px',
                          borderBottomRightRadius: '70px',
@@ -60,7 +62,7 @@ const Programmes = () => {
                          
                      </div>
                      <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center " style={{
-                        width: "18rem",
+                        width: "25rem",
                          borderTopRightRadius: '70px', 
                         borderTopLeftRadius: '70px',
                          borderBottomRightRadius: '70px',
@@ -71,7 +73,7 @@ const Programmes = () => {
                      <img src={job} alt="Logo" className='card-col img-fluid' style={{ height: "20vh", width:'100%', borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }}  />
                      <button className="card-title text-center mt-5 mb-2 p-2   " style={{border:"20px", borderRadius:'5px' ,backgroundColor:"red" ,color:'white',fontSize:'30px'}}>EMPLOYMENT</button>
 
-                         <p style={{ maxWidth: '100%', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
+                         <p style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
                          We provide employment through our income generating ventures.
                          We also train graduates in the community on how to be marketable in the job market.
 
@@ -94,38 +96,59 @@ const Programmes = () => {
     {/* First row */}
     <div className="row row-image justify-content-center">
         <div className="col-sm-3 text-white d-flex justify-content-center">
-            <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={deploymental} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
+            <div className="card" style={{ width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={job} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
-                    <h5 className="card-title text-center">DEVELOPMENTAL PROJECTS</h5>
-                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE RENOVATES AND BUILD A BETTER COMMUNITY </p>
+                    <h5 className="card-title text-center mb-2 " style={{fontWeight:'bold',fontSize:"25px"}}>APPRENTICESHIPS SUPPORT</h5>
+                    <p className="card-text text-center" style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>Through our partnership with dressmakers 
+                    association, hairdressers associations and shoe makers associations, 
+                    we are provide support to would be apprentice buy providing them the
+                     necessary tools and payment for expenses. We also provide support in
+                      terms of allowance to apprentice so they can focus on their training.
+                    After graduation from their apprentice, we also support them with seed capital to put up their own shop. 
+</p>
                 </div>
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
+            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={group1} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px',objectFit: "cover" }} />
                 <div className="card-body">
-                    <h5 className="card-title text-center">TRAININGS</h5>
-                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
+                    <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>DEVELOPMENTAL PROJECTS</h5>
+                    <p className="card-text text-center" style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>We acknowledge the government bears
+                     the larger responsibility in providing development projects. 
+                     To contribute our quota in making life easy for our people,
+                      we also provide(directly and indirectly through other agencies) 
+                      development in access to clean drinking water to our people, provision 
+                      of furniture and 
+                    other supports to public schools in the community.
+                </p>
                 </div>
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={donation} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
+            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={health} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
-                    <h5 className="card-title text-center">TRAININGS</h5>
-                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
+                    <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>HEALTH SUPPORT & SCREENING</h5>
+                    <p className="card-text text-center" style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
+                                        We also provide regular health screening to residents of the community
+                                        and provide assistance 
+                                        in payment of medical bills for residents 
+                              </p>
                 </div>
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
-                <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }} />
+            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+                <img src={muslimLeaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
-                    <h5 className="card-title text-center">TRAININGS</h5>
-                    <p className="card-text text-center" style={{ fontSize: '12px' }}>WE HELP AND OFFER ASSISTACE TO TRAIN MEMBERS ON HANDY <br /> WORK JOBS </p>
+                    <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>COMMUNITY ENGAGEMENT</h5>
+                    <p className="card-text text-center" style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
+                    As our civil duty and also to make our people informed about national issues, 
+                    regular community engagement are held to sensitize the community about 
+                    current issues in the country.
+                              </p>
                 </div>
             </div>
         </div>
