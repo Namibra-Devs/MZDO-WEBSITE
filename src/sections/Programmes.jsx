@@ -3,11 +3,13 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import './Programmes.css';
 import smallboy from '../assets/images/small boy.jpg';
-import groupofstudent from '../assets/images/group of student.jpeg';
-import googlegruop from '../assets/images/google developer group.jpeg';
+import scholarships from '../assets/images/scholarship9.jpg';
 import deploymental from '../assets/images/deploymental group 1.jpeg';
 import benificial from '../assets/images/beneficiaries.jpeg';
 import donation from '../assets/images/kapower-donate-to-muslim.jpeg'
+import job from '../assets/images/job.jpg'
+
+
 
 
 import muslimleaders from '../assets/images/group of-muslim-leaders.png';
@@ -35,31 +37,49 @@ const Programmes = () => {
    </div>
  </div>
           
-                    <div className="row mt-5 row row-image justify-content-center align-items-center">
-                        {/* First Card */}
-                        <div className="col-md-6 mt-5 ">
-                            <div className="card mb-3" style={{ border: '4px solid yellow', borderRadius: '0' }}>
-                                <img src={groupofstudent} className="card-img-top" alt="Card Image"
-                                    style={{
-                                        width: '100%',
-                                        height: '40vh',
-                                        objectFit: 'cover'
-                                    }} />
-                            </div>
-                        </div>
+                     <div className="row row-cols-1 card-col container-fluid justify-content-center align-items-center mt-5 gap-5">
+                     <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center " style={{
+                        width: "18rem",
+                         borderTopRightRadius: '70px', 
+                        borderTopLeftRadius: '70px',
+                         borderBottomRightRadius: '70px',
+                         borderBottomLeftRadius: '70px',
+                         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'
+                        
+                     }}>
+                     <img src={scholarships} alt="Logo" className='card-col img-fluid' style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }}  />
+                     <button className="card-title text-center mt-5 mb-2 p-2   " style={{border:"20px", borderRadius:'5px' ,backgroundColor:"red" ,color:'white',fontSize:'30px'}}>SCHOLARSHIP</button>
 
-                        {/* Second Card */}
-                        <div className="col-md-6 mt-5">
-                            <div className="card " style={{ border: '4px solid yellow', borderRadius: '0' }}>
-                                <img src={googlegruop} className="card-img-top" alt="Card Image"
-                                    style={{
-                                        width: '100%',
-                                        height: '40vh',
-                                        objectFit: 'cover'
-                                    }} />
-                            </div>
-                        </div>
-                    </div>
+                         <p style={{ maxWidth: '100%', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
+                     
+                         We have partnerships with educational institutions in the community to 
+                         provide scholarships to brilliant but needy students in the community.
+                          Partner schools includes Premier Nurses’ Training College
+                          and Naz Earlychildhood Development Centre.
+                         </p>
+                         
+                     </div>
+                     <div className="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center align-items-center " style={{
+                        width: "18rem",
+                         borderTopRightRadius: '70px', 
+                        borderTopLeftRadius: '70px',
+                         borderBottomRightRadius: '70px',
+                         borderBottomLeftRadius: '70px',
+                         boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'
+                        
+                     }}>
+                     <img src={job} alt="Logo" className='card-col img-fluid' style={{ height: "20vh", width:'100%', borderTopRightRadius: '70px', borderTopLeftRadius: '70px' }}  />
+                     <button className="card-title text-center mt-5 mb-2 p-2   " style={{border:"20px", borderRadius:'5px' ,backgroundColor:"red" ,color:'white',fontSize:'30px'}}>EMPLOYMENT</button>
+
+                         <p style={{ maxWidth: '100%', lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '700', textAlign: 'center' }}>
+                         We provide employment through our income generating ventures.
+                         We also train graduates in the community on how to be marketable in the job market.
+
+                         </p>
+                         
+                     </div>
+                  </div>
+            
             <hr style={{ width: '90%' }} />
 
             <div className="row mt-5 justify-content-center align-items-center">
