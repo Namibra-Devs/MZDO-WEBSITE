@@ -96,7 +96,7 @@ const Programmes = () => {
     {/* First row */}
     <div className="row row-image justify-content-center">
         <div className="col-sm-3 text-white d-flex justify-content-center">
-            <div className="card" style={{ width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+            <div className="card" style={{ width: "25rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={job} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
                     <h5 className="card-title text-center mb-2 " style={{fontWeight:'bold',fontSize:"25px"}}>APPRENTICESHIPS SUPPORT</h5>
@@ -111,7 +111,7 @@ const Programmes = () => {
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+            <div className="card" style={{  width: "25rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={group1} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px',objectFit: "cover" }} />
                 <div className="card-body">
                     <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>DEVELOPMENTAL PROJECTS</h5>
@@ -127,7 +127,7 @@ const Programmes = () => {
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+            <div className="card" style={{  width: "25rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={health} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
                     <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>HEALTH SUPPORT & SCREENING</h5>
@@ -140,7 +140,7 @@ const Programmes = () => {
             </div>
         </div>
         <div className="col-sm-3 text-white d-flex justify-content-center ">
-            <div className="card" style={{  width: "30rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
+            <div className="card" style={{  width: "25rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', borderBottomRightRadius: '70px', borderBottomLeftRadius: '70px', boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)' }}>
                 <img src={muslimLeaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '70px', borderTopLeftRadius: '70px' ,objectFit: "cover"}} />
                 <div className="card-body">
                     <h5 className="card-title text-center" style={{fontWeight:'bold',fontSize:"25px"}}>COMMUNITY ENGAGEMENT</h5>
