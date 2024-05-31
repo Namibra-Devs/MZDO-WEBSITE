@@ -11,7 +11,6 @@ import  boys from '../assets/images/boys.jpg'
 import muslimleaders from '../assets/images/group of-muslim-leaders.png';
 import Aos from 'aos';
  import 'aos/dist/aos.css'
-
 import './Update.css'
 
 const Update = () => {
@@ -78,7 +77,7 @@ const Update = () => {
                     COMMUNITY
                 </p>
             </div>
-            <a href='/Programmes_profile6' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <a href='/Gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
             <hr />
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>
