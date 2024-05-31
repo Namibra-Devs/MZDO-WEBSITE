@@ -2,11 +2,9 @@ import React ,{ useEffect } from 'react'
 import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import smallboy from '../assets/images/small boy.jpg'
-import groupofstudent from '../assets/images/group of student.jpeg';
-import googlegruop from '../assets/images/google developer group.jpeg';
-import deploymental from '../assets/images/deploymental group 1.jpeg';
+
 import benificial from '../assets/images/beneficiaries.jpeg';
-import donation from '../assets/images/kapower-donate-to-muslim.jpeg'
+
 import  boys from '../assets/images/boys.jpg'
 import muslimleaders from '../assets/images/group of-muslim-leaders.png';
 import Aos from 'aos';
@@ -77,7 +75,7 @@ const Update = () => {
                     COMMUNITY
                 </p>
             </div>
-            <a href='/Gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <a href='/gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
             <hr />
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>

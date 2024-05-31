@@ -1,11 +1,16 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import muslimLeaders from "../assets/images/group of-muslim-leaders.png"
+import evant1 from "../assets/images/Evant1.jpg"
 import lineup from "../assets/images/lineup.jpg"
 import boys from "../assets/images/boys.jpg"
-import benificial from "../assets/images/beneficiaries.jpeg"
-import donate from "../assets/images/kapower-donate-to-muslim.jpeg"
+import evant2 from "../assets/images/Evant2.jpg"
+import evant3 from "../assets/images/Evant3.jpg"
+import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
+
+
+
+
 import "./Event.css"
 const Event = ()=> {
     return (
@@ -66,19 +71,19 @@ const Event = ()=> {
 
             <div className="col-12 col-md-4 mb-4">
                 <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
-                    <img src={boys} className="card-img-top" alt="manspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
+                    <img src={evant3} className="card-img-top" alt="manspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
 
             <div className="col-12 col-md-4 mb-4">
                 <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
-                    <img src={benificial} className="card-img-top" alt="womanspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
+                    <img src={evant1} className="card-img-top" alt="womanspeaking" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
 
             <div className="col-12 col-md-4 mb-4">
                 <div className="card" style={{borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}}>
-                    <img src={donate} className="card-img-top" alt="youth" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
+                    <img src={evant2} className="card-img-top" alt="youth" style={{height:"30vh", borderTopRightRadius:'70px', borderBottomLeftRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px'}} />
                 </div>
             </div>
         </div>

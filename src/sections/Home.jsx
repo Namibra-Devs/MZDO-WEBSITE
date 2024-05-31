@@ -484,43 +484,7 @@ Awal Mohammed is an educationist and an Economics tutor at Ibadul Rahment SHS.
     {/* three grid images start here */}
 
 
-    <div id="carouselExampleDark" className="carousel slide  carousel-img">
-        <div className="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" className="active carousel-btn" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2" className="carousel-btn"></button>
-            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3" className="carousel-btn"></button>
-            <a href="/Contact"  className="btn btn-warning m-4 text-success " style={{marginTop:'20px'}}>CONTACT US</a>
-            <a href="/About"  className="btn btn-success m-4" style={{marginTop:'20px'}}>READ MORE</a>
-        </div>
-        <div className="carousel-inner carousel-inner-img">
-           <div className="carousel-item active" data-bs-interval="10000">
-               <img src={muslimLeaders} className="d-block w-100" alt="muslimLeaders" style={{ height: "90vh", objectFit: "cover" , backgroundPosition:'center'}}  />
-               <div className="carousel-caption d-none  d-md-block text-center">
-                   <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-               </div>   
-           </div>
-           <div className="carousel-item" data-bs-interval="2000">
-               <img src={group1} className="d-block w-100 "alt=" group1" style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center'}}  />
-               <div className="carousel-caption d-none d-md-block text-center">
-                  <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-</div>
-           </div> 
-           <div className="carousel-item">
-               <img src={group2} className="d-block w-100 " alt="group2 " style={{ height: "90vh", objectFit: "cover", backgroundPosition:'center' }}  />
-               <div className="carousel-caption d-none d-md-block text-center">
-                   <h2 className="imgtext text-light">MOSHIE ZONGO DEVELOPMENTAL ORGANIZATION</h2>
-                </div>
-           </div>
-        </div>
-        <button className="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev"  data-aos="fade-right">
-           <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-           <span className="visually-hidden">Previous</span>
-           </button>
-           <button className="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next"  data-aos="fade-left">
-          <span className="carousel-control-next-icon" aria-hidden="true"></span>
-           <span className="visually-hidden">Next</span>
-        </button>
- </div>
+  
  <div className='container text-center' style={{fontWeight:'700'}}> 
      <p>HOW YOU CAN HELP</p>
      <a href="/join_us" type="button" className="btn btn-secondary btn-sm ">JOIN US </a>
