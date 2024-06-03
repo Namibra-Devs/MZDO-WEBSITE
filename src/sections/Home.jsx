@@ -120,7 +120,7 @@ import './Home.css';
   
     <div className="container-fluid">
        < div>
-         <h6 className='text-center mb-5'
+         <h6 className='text-center mb-5 mt-5'
          style={{
             fontSize: '1.5rem', 
             fontWeight: '600', 
