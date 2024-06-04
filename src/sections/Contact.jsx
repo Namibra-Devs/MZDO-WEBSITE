@@ -45,12 +45,12 @@ const Contact = () => {
             <div className="card-body">
                 <h5 className="card-title" style={{ color: 'green', fontWeight: '700' }}>CONTACT INFO</h5>
                 <p style={{ fontWeight: '700', fontSize: '12px' }}>
-                    <p className="inline-p">MOSHIE ZONGO DEVELOPMENTAL <br /> ORGANIZATION <br /> KUMASI MOSHIE ZONGO</p>
+                    <p className="inline-p">GPS ADDRESS AK-047-1691 OPPOSIE ZEBA MOSQUE <br /> Google map location of office- <br /> KUMASI MOSHIE ZONGO</p>
 
                     <span className="vertical-line m-5"></span>
 
                     <span className="vertical-line"></span>
-                    <p className="inline-p">PHONE: +233(0)303030303 <br />EMAIL: info@mzdo.org </p>
+                    <p className="inline-p">PHONE: 233 538167155 <br /> <a href="Salifu.muniru@yahoo.com">Salifu.muniru@yahoo.com</a> </p>
                 </p>
             </div>
         </div>

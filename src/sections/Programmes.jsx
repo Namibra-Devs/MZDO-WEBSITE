@@ -5,15 +5,9 @@ import './Programmes.css';
 import smallboy from '../assets/images/small boy.jpg';
 import scholarships from '../assets/images/scholarship9.jpg';
 import muslimLeaders from  "../assets/images/group of-muslim-leaders.png"
-import benificial from '../assets/images/beneficiaries.jpeg';
 import health from '../assets/images/health.jpg'
 import job from '../assets/images/job.jpg'
 import group1 from "../assets/images/group 1.jpg"
-
-
-
-
-
 import muslimleaders from '../assets/images/group of-muslim-leaders.png';
 
 const Programmes = () => {
