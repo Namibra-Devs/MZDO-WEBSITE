@@ -46,7 +46,45 @@ const Gallery = () => {
     <div>
       <Navbar />
       <h1 className="text-center mb-5">WELCOME TO GALLERY SECTION</h1>
-      <div className="container" style={{ backgroundColor: 'green' }}>
+      <div className="container" style={{ }}>
+        <Row>
+          <Col xs={12} md={6}>
+            <Carousel>
+              {images1.map((image, index) => (
+                <Carousel.Item key={index}>
+                  <img
+                    className="d-block w-100"
+                    src={image.src}
+                    alt={image.caption}
+                    style={{ height: '45vh', objectFit: 'cover' }} // Adjust height to fit two columns
+                  />
+                  <Carousel.Caption>
+                    <h3>{image.caption}</h3>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Col>
+          <Col xs={12} md={6}>
+            <Carousel>
+              {images2.map((image, index) => (
+                <Carousel.Item key={index}>
+                  <img
+                    className="d-block w-100"
+                    src={image.src}
+                    alt={image.caption}
+                    style={{ height: '45vh', objectFit: 'cover' }} // Adjust height to fit two columns
+                  />
+                  <Carousel.Caption>
+                    <h3>{image.caption}</h3>
+                  </Carousel.Caption>
+                </Carousel.Item>
+              ))}
+            </Carousel>
+          </Col>
+        </Row>
+      </div>
+      <div className="container  mt-5" style={{  }}>
         <Row>
           <Col xs={12} md={6}>
             <Carousel>

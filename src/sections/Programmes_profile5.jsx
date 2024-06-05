@@ -26,7 +26,7 @@ const Programmes_profile5 = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-center mb-5">WELCOME TO GALLERY SECTION</h1>
+      <h1 className="text-center mb-5 " style={{fontWeight:"bold" , fontStyle:"italic", color:'green'}}>WELCOME TO GALLERY SECTION</h1>
       <div className="container" style={{ backgroundColor: 'green' }}>
         <Row>
           <Col xs={12} md={6}>
