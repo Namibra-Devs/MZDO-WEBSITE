@@ -1,75 +1,61 @@
+// src/components/NewsSection.jsx
+
 import React from 'react';
-import { Carousel, Row, Col } from 'react-bootstrap'; // Import necessary components
-import marchp1 from '../assets/images/marchp1.jpg';
-import marchp2 from '../assets/images/marchp2.jpg';
-import marchp3 from '../assets/images/marchp3.jpg';
-
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar'; 
 import Footer from '../components/Footer';
+import news from "../assets/images/news.jpg"
+import float1 from "../assets/images/float1.jpg"
+import float2 from "../assets/images/float2.jpg"
 
-const Programmes_profile5 = () => {
-  const images = [
+
+
+
+
+const NewsSection = () => {
+  const newsArticles = [
     {
-      src: marchp1,
-      caption: 'PICTURES OF 6MARCH CELEBRATION',
+      title: "Community Garden Project Launched",
+      date: "June 1, 2024",
+      description: "The Moshie Zongo Development organization has launched a new community garden project to promote sustainable agriculture and community engagement.",
+      imageUrl: news
     },
     {
-      src: marchp2,
-      caption: 'PICTURES OF 6MARCH CELEBRATION',
+      title: "New Health Clinic Opens",
+      date: "May 25, 2024",
+      description: "A new health clinic has been opened in the Moshie Zongo community to provide essential health services to residents.",
+      imageUrl: float1
     },
     {
-      src: marchp3,
-      caption: 'PICTURES OF 6MARCH CELEBRATION',
+      title: "Educational Workshop Series Announced",
+      date: "May 15, 2024",
+      description: "A series of educational workshops focusing on financial literacy, health, and wellness will be held over the next three months.",
+      imageUrl: float2
     },
   ];
 
   return (
-    <div>
-      <Navbar />
-      <h1 className="text-center mb-5 " style={{fontWeight:"bold" , fontStyle:"italic", color:'green'}}>WELCOME TO GALLERY SECTION</h1>
-      <div className="container" style={{ backgroundColor: 'green' }}>
-        <Row>
-          <Col xs={12} md={6}>
-            <Carousel>
-              {images.map((image, index) => (
-                <Carousel.Item key={index}>
-                  <img
-                    className="d-block w-100"
-                    src={image.src}
-                    alt={image.alt}
-                    style={{ height: '45vh', objectFit: 'cover' }} // Adjust height to fit two columns
-                  />
-                  <Carousel.Caption>
-                    <h3>{image.alt}</h3>
-                    <h1>{image.caption}</h1>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              ))}
-            </Carousel>
-          </Col>
-          <Col xs={12} md={6}>
-            <Carousel>
-              {images.map((image, index) => (
-                <Carousel.Item key={index}>
-                  <img
-                    className="d-block w-100"
-                    src={image.src}
-                    alt={image.alt}
-                    style={{ height: '45vh', objectFit: 'cover' }} // Adjust height to fit two columns
-                  />
-                  <Carousel.Caption>
-                    <h3>{image.alt}</h3>
-                    <h1>{image.caption}</h1>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              ))}
-            </Carousel>
-          </Col>
-        </Row>
+    <section className="py-12 bg-gray-100">
+    <Navbar />
+    <div className="container mx-auto px-4">
+      <h2 className="text-3xl font-bold mb-8 text-center">LATEST NEWS</h2>
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+        {newsArticles.map((article, index) => (
+          <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
+            <div className="flex justify-center items-center h-48 bg-gray-200">
+              <img className="object-cover" src={article.imageUrl} alt={article.title} />
+            </div>
+            <div className="p-6">
+              <h3 className="text-xl font-bold mb-2">{article.title}</h3>
+              <h5 className="text-gray-600 text-sm mb-4">{article.date}</h5>
+              <h4 className="text-gray-700">{article.description}</h4>
+            </div>
+          </div>
+        ))}
       </div>
-      <Footer />
     </div>
+    <Footer />
+  </section>
   );
 };
 
-export default Programmes_profile5;
+export default NewsSection;
