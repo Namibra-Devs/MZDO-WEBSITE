@@ -36,10 +36,10 @@ const Footer = () => {
           </div>
           <div className="col-md-4 col-sm-6 mt-4 text-center">
             <p className='font-weight-bold'>QUICK LINKS</p>
-            <p>ABOUT US</p>
-            <p>CONTACT US</p>
-            <p>DONATE</p>
-            <p>OUR SERVICES</p>
+         <a href="/join_us" style={{textDecoration:"none",color:'white'}}>ABOUT US</a> <br />
+         <a href="/contact" style={{textDecoration:"none",color:'white'}}>CONTACT US</a> <br />
+            <a href="/Donation" style={{textDecoration:"none",color:'white'}}> DONATE</a> <br />
+            <a href="/programmes" style={{textDecoration:"none",color:'white'}}> OUR SERVICES</a>
           </div>
           <div className="col-md-4 col-sm-6 mt-4 text-center" >
            
@@ -56,3 +56,4 @@ const Footer = () => {
 }
 
 export default Footer;
+ 
