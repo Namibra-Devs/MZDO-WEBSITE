@@ -12,6 +12,8 @@ import like from "../assets/images/like.png"
 import accountant from "../assets/images/accountant.jpg"
 import Manager from "../assets/images/Manager.jpg"
 import deputyManager from "../assets/images/deputyManager.jpg"
+import Pro from "../assets/images/pro.jpg"
+
 import Secretery from "../assets/images/Secretery.jpeg"
 
 import Aos from 'aos';
@@ -322,7 +324,7 @@ Awal Mohammed is an educationist and an Economics tutor at Ibadul Rahment SHS.
          padding: '20px'
        }} 
        data-aos="fade-right">
-    <img src={deputyManager} 
+    <img src={Pro} 
          className="card-img-top" 
          alt="manspeaking" 
          style={{  
