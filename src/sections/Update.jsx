@@ -3,9 +3,9 @@ import Footer from '../components/Footer'
 import Navbar from '../components/Navbar'
 import smallboy from '../assets/images/small boy.jpg'
 
-import benificial from '../assets/images/beneficiaries.jpeg';
+import evant1 from '../assets/images/Evant1.jpg';
 
-import  boys from '../assets/images/boys.jpg'
+import  event2 from '../assets/images/Evant2.jpg'
 import muslimleaders from '../assets/images/group of-muslim-leaders.png';
 import Aos from 'aos';
  import 'aos/dist/aos.css'
@@ -42,36 +42,28 @@ const Update = () => {
             <div className="row row-image justify-content-center align-items-center">
     <div className="col-sm text-white d-flex justify-content-center">
         <div className="card" style={{ width: "18rem", borderTopRightRadius: '70px', borderTopLeftRadius: '70px', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
-            <img src={boys} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-left" />
-            <a href='/Programmes_profile' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>GALLERY</a>
+            <img src={event2} className="card-img-top mb-3" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-left" />
+            <a href='/Programmes_profile' style={{  fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'White',backgroundColor:'green',borderRadius:"20px", }}>GALLERY</a>
             <hr />
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>
     </div>
     <div className="col-sm text-white d-flex justify-content-center">
         <div className="card" style={{ width: "18rem", borderTopRightRadius: '60%', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
-            <img src={benificial} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
+            <img src={evant1} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
             <div className="card-body">
-                <h5 className="card-title text-center">TRAINING</h5>
-                <p className="card-text" style={{ fontSize: '12px' }}>WE RENOVATES AND BUILD A BETTER COMMUNITY  </p>
+
             </div>
-            <a href='/Programmes_profile5' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <a href='/Programmes_profile5' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'White',backgroundColor:'green',borderRadius:"20px", }}>NEWS UPDATE</a>
             <hr />
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>
     </div>
     <div className="col-sm text-white d-flex justify-content-center">
         <div className="card" style={{ width: "18rem", borderTopRightRadius: '60%', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
-            <img src={muslimleaders} className="card-img-top" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
-            <div className="card-body">
-                <h5 className="card-title text-center">DONATION</h5>
-                <p className="card-text" style={{ fontSize: '12px' }}>
-                    AS PART  OF OUR BELIEVES GIVING ARMS,
-                    WE FULFIL THAT BY  GIVING BACK TO THE NEEDY IN THE
-                    COMMUNITY
-                </p>
-            </div>
-            <a href='/gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'black' }}>READ MORE</a>
+            <img src={muslimleaders} className="card-img-top mb-3" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
+            
+            <a href='/gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'White',backgroundColor:'green',borderRadius:"20px",  }}>READ MORE</a>
             <hr />
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>

@@ -45,7 +45,7 @@ const Gallery = () => {
   return (
     <div>
       <Navbar />
-      <h1 className="text-center mb-5">WELCOME TO GALLERY SECTION</h1>
+      <h1 className="text-center mb-5 bg-success text-white ">WELCOME TO GALLERY SECTION</h1>
       <div className="container" style={{ }}>
         <Row>
           <Col xs={12} md={6}>

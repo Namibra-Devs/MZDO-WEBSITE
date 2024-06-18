@@ -45,7 +45,8 @@ import logo from "../assets/images/mainlogo.jpg"
                 <div className="container-fluid">
                     <div className="navbar-collapse" id="navbarNav">
                         <div className="navbar-nav navitem topNavlist">
-                            <a className="nav-item nav-link">Call us: +233(0)030303030  <span>|</span> </a>
+                            <a className="nav-item nav-link">Call us: +233(0)233 538167155
+  <span>|</span> </a>
                             <a className="nav-item nav-link  " href='http://localhost:5173/Salifu.muniru@yahoo.com'>Email us: Salifu.muniru@yahoo.com</a>
                         </div>
                         <div className="navbar-nav ms-auto icons">
