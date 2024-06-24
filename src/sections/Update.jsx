@@ -59,15 +59,7 @@ const Update = () => {
             <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
         </div>
     </div>
-    <div className="col-sm text-white d-flex justify-content-center">
-        <div className="card" style={{ width: "18rem", borderTopRightRadius: '60%', margin: '20px', border: '0', boxShadow: 'whitesmoke' }}>
-            <img src={muslimleaders} className="card-img-top mb-3" alt="..." style={{ height: "20vh", borderTopRightRadius: '50px', borderTopLeftRadius: '50px', borderBottomLeftRadius: '50px', borderBottomRightRadius: '50px' }} data-aos="fade-right" />
-            
-            <a href='/gallery' style={{ fontWeight: '600', fontSize: '20px', textDecoration: 'none', color: 'White',backgroundColor:'green',borderRadius:"20px",  }}>READ MORE</a>
-            <hr />
-            <p style={{ fontSize: '10px' }}>DECEMBER 20,2022</p>
-        </div>
-    </div>
+    
 </div>
 
    

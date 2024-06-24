@@ -156,9 +156,9 @@ const Donation = () => {
                   Thank you for putting a smile on our face
                 </p>
               </div>
-              <button type='submit' className='btn btn-danger m-3'>
+              <a href='/Thanks' type='submit' className='btn btn-danger m-3'>
                 DONATE
-              </button>
+              </a>
             </form>
             <div className='container-fluid'>
               <h6 className='text-center mt-5' style={{ fontWeight: '700' }}>

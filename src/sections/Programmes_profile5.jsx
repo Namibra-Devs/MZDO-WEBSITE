@@ -37,22 +37,34 @@ const NewsSection = () => {
     <section className="py-12 bg-gray-100">
     <Navbar />
     <div className="container mx-auto px-4">
-      <h2 className="text-3xl font-bold mb-8 text-center">LATEST NEWS</h2>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-        {newsArticles.map((article, index) => (
-          <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="flex justify-center items-center h-48 bg-gray-200">
-              <img className="object-cover" src={article.imageUrl} alt={article.title} />
-            </div>
-            <div className="p-6">
-              <h3 className="text-xl font-bold mb-2">{article.title}</h3>
-              <h5 className="text-gray-600 text-sm mb-4">{article.date}</h5>
-              <h4 className="text-gray-700">{article.description}</h4>
-            </div>
-          </div>
-        ))}
+  <h2 className="text-center mb-5 bg-success text-white ">LATEST NEWS</h2>
+  <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
+    {newsArticles.map((article, index) => (
+      <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col">
+        <div className="flex justify-center items-center h-48 bg-gray-200">
+          <img className="object-cover w-full h-full" style={{width:"100%",  borderTopRightRadius: '70px', 
+         borderTopLeftRadius: '70px', 
+         borderBottomRightRadius: '70px',  
+         borderBottomLeftRadius: '70px', }} src={article.imageUrl} alt={article.title} />
+        </div>
+        <div className="p-4 md:p-6 flex flex-col justify-between flex-grow">
+          <h3 className="text-xl font-bold mb-2 text-center ">{article.title}</h3>
+          <h5 className="text-gray-600 text-sm mb-4 text-center">{article.date}</h5>
+          <h4 className="text-gray-700 text-center">{article.description}</h4>
+        </div>
+
       </div>
-    </div>
+    ))}
+  </div>
+</div>
+<div className='container mt-5' style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} >
+    <label style={{fontSize: '20px', fontWeight: '600',  }} > Leave a comment</label>
+    <textarea style={{borderRadius:'30px',backgroundColor:'#F2F2F2',border:'0', width: '50rem',marginBottom:'10px'}} name="" id="" cols="50" rows="8"></textarea>
+
+    <i class="bi bi-check2-square"></i> <span>Remember me</span>
+    <a href="" className='btn btn-success btn-sm d-flex mx-2 mt-2'>POST COMMENTS <i class="bi bi-send"></i></a>   
+  </div>
+
     <Footer />
   </section>
   );
