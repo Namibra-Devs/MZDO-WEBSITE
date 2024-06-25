@@ -57,13 +57,20 @@ const NewsSection = () => {
     ))}
   </div>
 </div>
-<div className='container mt-5' style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start' }} >
-    <label style={{fontSize: '20px', fontWeight: '600',  }} > Leave a comment</label>
-    <textarea style={{borderRadius:'30px',backgroundColor:'#F2F2F2',border:'0', width: '50rem',marginBottom:'10px'}} name="" id="" cols="50" rows="8"></textarea>
+<div class="container mt-5 flex flex-col items-start px-4 sm:px-0">
+    <label class="text-lg font-semibold mb-2">Leave a comment</label>
+    <textarea class="rounded-2xl bg-gray-200 border-0 w-full max-w-3xl mb-2 p-3 resize-vertical" style={{borderRadius:'30px',backgroundColor:'#F2F2F2'}} name="" id="" cols="100" rows="5"></textarea>
+    
+    <div class="flex items-center mb-2">
+        <i class="bi bi-check2-square mr-2"></i>
+        <span>Remember me</span>
+    </div>
+    
+    <a href="#" class="btn btn-success btn-sm flex items-center justify-center mt-2 px-4 py-2 text-sm">
+        POST COMMENTS <i class="bi bi-send ml-2"></i>
+    </a>
+</div>
 
-    <i class="bi bi-check2-square"></i> <span>Remember me</span>
-    <a href="" className='btn btn-success btn-sm d-flex mx-2 mt-2'>POST COMMENTS <i class="bi bi-send"></i></a>   
-  </div>
 
     <Footer />
   </section>
