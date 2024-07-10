@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from "../assets/images/mainlogo.jpg"
+import logo from "../assets/images/removebgpreview.jpg"
 import twitter from "../assets/images/twitter.png";
 import facebook from "../assets/images/facebook.png";
 import intagram from "../assets/images/intagram.png";
@@ -29,8 +29,11 @@ const Footer = () => {
             <hr className="bg-light" />
             <div className='d-flex text-center'>
               <img src={twitter} className="nav-item nav-link mr-2" id="media" alt="Twitter" />
+              <a href="https://web.facebook.com/profile.php?id=61553344065572"  target="_blank" rel="noopener noreferrer">
               <img src={facebook} className="nav-item nav-link mr-2" id="media" alt="Facebook" />
-              <img src={intagram} className="nav-item nav-link" id="media" alt="Instagram" /> 
+              </a>
+              
+              <img href="" src={intagram} className="nav-item nav-link" id="media" alt="Instagram" /> 
             </div>
             <p className="mt-2" style={{color:'green'}}>@mzd.org</p>
           </div>

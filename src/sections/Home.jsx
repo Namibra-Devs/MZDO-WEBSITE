@@ -84,19 +84,19 @@ import './Home.css';
          </div>
         
          {/* Second Column */}
-         <div className="col text-center" style={{ fontSize: '12px', lineHeight: '27px', maxWidth: '400px' }}>
+         <div className="col" style={{ fontSize: '12px',}}>
              <h5 className='font-weight-bold' style={{ color: '#00821C', marginTop: '30px', fontSize: '18px' }}>
                  Moshie Zongo Development Organization
              </h5>
              <p className='mt-3' style={{fontSize:'28px', fontWeight:'800'}}>MOTTO :</p>
-             <p  className='h6 font-weight-bold' style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
+             <p  className='h6 font-weight-bold' style={{letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  “Development through education, love and care”
              </p>
             
-             <p className='font-weight-bold'  style={{lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
+             <p className='font-weight-bold'  style={{ letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  MOSHIE ZONGO DEVELOPMENT ORGANISATION (MZDO)
                  is a company limited by guarantee incorporated on the 
-                 25th day of May, 2023. <br />
+                 25th day of May, 2023.
                  The purpose for incorporating MDO is to promote 
                  development in moshie zongo with special emphasis.
              </p>
@@ -108,7 +108,7 @@ import './Home.css';
            
              <p className='mt-4' style={{ lineHeight: '1.5', letterSpacing: '1px', fontSize: '1rem', fontWeight: '600', margin: '0',}}>
                  1. Education: Establishing an Educational Fund to 
-                 support Brilliant But Needy Students. <br />
+                 support Brilliant But Needy Students.
                  2. Youth Employment: Support willing youth to acquire
                  employable skills through the align-items-center 
                  Apprenticeship Program.  
