@@ -417,7 +417,7 @@ Awal Mohammed is an educationist and an Economics tutor at Ibadul Rahment SHS.
                  but needy students renovates various damaged and dangerous school and hospital structures in the 
                  community as well help support anyone with any challenge financially....
              </p>
-               <a href="/Event" className="btn btn-success mt-3">EVANT<i className="bi bi-arrow-right"></i></a>
+               <a href="/Event" className="btn btn-success mt-3">EVENT<i className="bi bi-arrow-right"></i></a>
          </div>
          <div className="col-lg-6 col-md-6 col-sm-12 mt-5" data-aos="flip-right">
              <img src={Awards1} alt="Logo" className='card-col img-fluid' style={{ width: '100%', borderTopRightRadius:'70px', borderTopLeftRadius:'70px', borderBottomRightRadius:'70px',   borderBottomLeftRadius: '70px',boxShadow: '0 4px 8px 0 rgba(0,0,0,0.2)'  }} />
